@@ -32,6 +32,7 @@ export default function Header({ locale }: { locale: string }) {
         { name: t('menu'), href: `/${locale}/menu` },
         { name: t('about'), href: `/${locale}/about` },
         { name: t('blog'), href: `/${locale}/blog` },
+        { name: t('gallery'), href: `/${locale}/gallery` },
         { name: t('contact'), href: `/${locale}/contact` },
     ];
 
@@ -42,8 +43,8 @@ export default function Header({ locale }: { locale: string }) {
         >
             <div className="container mx-auto px-4 flex justify-between items-center relative">
                 {/* Logo - Left */}
-                <Link href={`/${locale}`} className="text-2xl font-bold text-amber-500 z-50">
-                    My Terrace
+                <Link href={`/${locale}`} className="z-50">
+                    <img src="/logo.webp" alt="My Terrace Logo" className="h-12 w-auto object-contain" />
                 </Link>
 
                 {/* Desktop Nav - Absolute Center */}

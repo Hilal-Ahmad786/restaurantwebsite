@@ -9,14 +9,17 @@ export default function Hero({ locale }: { locale: string }) {
 
     return (
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
-            {/* Background Image with Overlay */}
-            <div className="absolute inset-0 z-0">
+            {/* Background Video with Overlay */}
+            <div className="absolute inset-0 z-0 overflow-hidden">
                 <div className="absolute inset-0 bg-black/60 z-10" />
-                <img
-                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop"
-                    alt="Restaurant Terrace View"
-                    className="w-full h-full object-cover"
-                />
+                <div className="absolute inset-0 pointer-events-none">
+                    <iframe
+                        src="https://www.youtube.com/embed/URLp5hPu_WE?rel=0&autoplay=1&mute=1&enablejsapi=1&controls=0&loop=1&playlist=URLp5hPu_WE&fs=0&enablejsapi=1"
+                        className="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-screen min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 object-cover"
+                        allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    />
+                </div>
             </div>
 
             <div className="container mx-auto px-4 relative z-20 text-center text-white">
@@ -34,13 +37,13 @@ export default function Hero({ locale }: { locale: string }) {
 
                     <div className="flex flex-col md:flex-row gap-4 justify-center">
                         <Link
-                            href={`/${locale}#menu`}
+                            href={`/${locale}/menu`}
                             className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-full font-semibold transition-colors text-lg"
                         >
                             {t('cta')}
                         </Link>
                         <Link
-                            href={`/${locale}#contact`}
+                            href={`/${locale}/contact`}
                             className="px-8 py-3 bg-transparent border-2 border-white hover:bg-white hover:text-black text-white rounded-full font-semibold transition-colors text-lg"
                         >
                             {t('book')}

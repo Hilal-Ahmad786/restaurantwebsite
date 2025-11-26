@@ -7,6 +7,15 @@ import '../globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'My Terrace Cafe Restaurant',
+    description: 'Best restaurant in Sultanahmet with a view.',
+    icons: {
+        icon: '/logo.webp',
+    },
+};
 
 export default async function LocaleLayout({
     children,
