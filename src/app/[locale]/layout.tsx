@@ -17,6 +17,8 @@ export const metadata: Metadata = {
     },
 };
 
+import FloatingCallButton from '@/components/FloatingCallButton';
+
 export default async function LocaleLayout({
     children,
     params
@@ -36,7 +38,7 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale} className="scroll-smooth">
-            <body className="bg-black text-white antialiased">
+            <body className="bg-black text-white antialiased" suppressHydrationWarning>
                 <NextIntlClientProvider messages={messages}>
                     <GoogleAnalytics />
                     <Header locale={locale} />
@@ -44,6 +46,7 @@ export default async function LocaleLayout({
                         {children}
                     </main>
                     <Footer />
+                    <FloatingCallButton />
                 </NextIntlClientProvider>
             </body>
         </html>
