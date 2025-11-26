@@ -892,6 +892,396 @@
                     "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
+        },
+        {
+            "id": "steaks",
+            "name": {
+                "tr": "Biftekler",
+                "en": "Steak's",
+                "ar": "شرائح اللحم",
+                "de": "Steaks"
+            },
+            "items": [
+                {
+                    "id": "t-bone-steak",
+                    "name": {
+                        "tr": "T-Bone Steak",
+                        "en": "T-Bone Steak",
+                        "ar": "ستيك تي بون",
+                        "de": "T-Bone-Steak"
+                    },
+                    "description": {
+                        "tr": "Közde pişmiş T-Bone biftek.",
+                        "en": "Charcoal grilled T-Bone steak.",
+                        "ar": "ستيك تي بون مشوي على الفحم.",
+                        "de": "Auf Holzkohle gegrilltes T-Bone-Steak."
+                    },
+                    "price": 810,
+                    "image": "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "pepper-steak",
+                    "name": {
+                        "tr": "Biberli Biftek",
+                        "en": "Pepper Steak",
+                        "ar": "ستيك بالفلفل",
+                        "de": "Pfeffer-Steak"
+                    },
+                    "description": {
+                        "tr": "Karabiber soslu biftek.",
+                        "en": "Steak with black pepper sauce.",
+                        "ar": "ستيك مع صلصة الفلفل الأسود.",
+                        "de": "Steak mit schwarzer Pfeffersauce."
+                    },
+                    "price": 790,
+                    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "mushroom-steak",
+                    "name": {
+                        "tr": "Mantarlı Biftek",
+                        "en": "Mushroom Steak",
+                        "ar": "ستيك بالفطر",
+                        "de": "Pilz-Steak"
+                    },
+                    "description": {
+                        "tr": "Mantar soslu biftek.",
+                        "en": "Steak with mushroom sauce.",
+                        "ar": "ستيك مع صلصة الفطر.",
+                        "de": "Steak mit Pilzsauce."
+                    },
+                    "price": 750,
+                    "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "texas-steak",
+                    "name": {
+                        "tr": "Teksas Biftek",
+                        "en": "Texas Steak",
+                        "ar": "ستيك تكساس",
+                        "de": "Texas-Steak"
+                    },
+                    "description": {
+                        "tr": "Özel baharatlarla marine edilmiş biftek.",
+                        "en": "Steak marinated with special spices.",
+                        "ar": "ستيك متبل بالبهارات الخاصة.",
+                        "de": "Mit speziellen Gewürzen mariniertes Steak."
+                    },
+                    "price": 790,
+                    "image": "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "chicken-steak",
+                    "name": {
+                        "tr": "Tavuk Biftek",
+                        "en": "Chicken Steak",
+                        "ar": "ستيك الدجاج",
+                        "de": "Hähnchen-Steak"
+                    },
+                    "description": {
+                        "tr": "Izgara tavuk göğsü biftek.",
+                        "en": "Grilled chicken breast steak.",
+                        "ar": "ستيك صدر دجاج مشوي.",
+                        "de": "Gegrilltes Hähnchenbrust-Steak."
+                    },
+                    "price": 710,
+                    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "grilled-steak",
+                    "name": {
+                        "tr": "Biftek",
+                        "en": "Grilled Steak",
+                        "ar": "ستيك مشوي",
+                        "de": "Gegrilltes Steak"
+                    },
+                    "description": {
+                        "tr": "Klasik ızgara biftek.",
+                        "en": "Classic grilled steak.",
+                        "ar": "ستيك مشوي كلاسيكي.",
+                        "de": "Klassisches gegrilltes Steak."
+                    },
+                    "price": 750,
+                    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "lamb-cage",
+                    "name": {
+                        "tr": "Kuzu Kafes",
+                        "en": "Lamb Cage",
+                        "ar": "قفص الضأن",
+                        "de": "Lammkäfig"
+                    },
+                    "description": {
+                        "tr": "Fırında pişmiş kuzu kaburga.",
+                        "en": "Oven-baked lamb ribs.",
+                        "ar": "أضلاع ضأن مخبوزة في الفرن.",
+                        "de": "Im Ofen gebackene Lammrippchen."
+                    },
+                    "price": 850,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "leg-of-lamb",
+                    "name": {
+                        "tr": "Kuzu İncik",
+                        "en": "Leg of the Lamb",
+                        "ar": "ساق الضأن",
+                        "de": "Lammhaxe"
+                    },
+                    "description": {
+                        "tr": "Fırında pişmiş kuzu incik.",
+                        "en": "Oven-baked lamb shank.",
+                        "ar": "ساق ضأن مخبوزة في الفرن.",
+                        "de": "Im Ofen gebackene Lammhaxe."
+                    },
+                    "price": 750,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "chicken-schnitzel",
+                    "name": {
+                        "tr": "Tavuk Şinitzel",
+                        "en": "Chicken Schnitzel",
+                        "ar": "شنيتزل الدجاج",
+                        "de": "Hähnchen-Schnitzel"
+                    },
+                    "description": {
+                        "tr": "Kızarmış tavuk şinitzel.",
+                        "en": "Fried chicken schnitzel.",
+                        "ar": "شنيتزل دجاج مقلي.",
+                        "de": "Gebratenes Hähnchen-Schnitzel."
+                    },
+                    "price": 680,
+                    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=2000&auto=format&fit=crop"
+                }
+            ]
+        },
+        {
+            "id": "hot-appetizers",
+            "name": {
+                "tr": "Ara Sıcaklar",
+                "en": "Hot Appetizer's",
+                "ar": "المقبلات الساخنة",
+                "de": "Warme Vorspeisen"
+            },
+            "items": [
+                {
+                    "id": "lentil-soup",
+                    "name": {
+                        "tr": "Mercimek Çorbası",
+                        "en": "Lentil Soup",
+                        "ar": "شوربة العدس",
+                        "de": "Linsensuppe"
+                    },
+                    "description": {
+                        "tr": "Geleneksel kırmızı mercimek çorbası.",
+                        "en": "Traditional red lentil soup.",
+                        "ar": "شوربة العدس الأحمر التقليدية.",
+                        "de": "Traditionelle rote Linsensuppe."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "tomato-soup",
+                    "name": {
+                        "tr": "Domates Çorbası",
+                        "en": "Tomato Soup",
+                        "ar": "شوربة الطماطم",
+                        "de": "Tomatensuppe"
+                    },
+                    "description": {
+                        "tr": "Taze domates çorbası.",
+                        "en": "Fresh tomato soup.",
+                        "ar": "شوربة الطماطم الطازجة.",
+                        "de": "Frische Tomatensuppe."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "rice",
+                    "name": {
+                        "tr": "Pilav",
+                        "en": "Rice",
+                        "ar": "أرز",
+                        "de": "Reis"
+                    },
+                    "description": {
+                        "tr": "Tereyağlı pilav.",
+                        "en": "Buttered rice.",
+                        "ar": "أرز بالزبدة.",
+                        "de": "Butterreis."
+                    },
+                    "price": 150,
+                    "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "french-fries",
+                    "name": {
+                        "tr": "Patates Cips",
+                        "en": "French Fries",
+                        "ar": "بطاطس مقلية",
+                        "de": "Pommes Frites"
+                    },
+                    "description": {
+                        "tr": "Çıtır patates kızartması.",
+                        "en": "Crispy french fries.",
+                        "ar": "بطاطس مقلية مقرمشة.",
+                        "de": "Knusprige Pommes Frites."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "fried-calamary",
+                    "name": {
+                        "tr": "Kalamar Tava",
+                        "en": "Fried Calamary",
+                        "ar": "حبار مقلي",
+                        "de": "Gebratene Calamari"
+                    },
+                    "description": {
+                        "tr": "Kızarmış kalamar halkası.",
+                        "en": "Fried calamari rings.",
+                        "ar": "حلقات حبار مقلية.",
+                        "de": "Gebratene Calamari-Ringe."
+                    },
+                    "price": 620,
+                    "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "grilled-octopus",
+                    "name": {
+                        "tr": "Ahtapot Izgara",
+                        "en": "Grilled Octopus",
+                        "ar": "أخطبوط مشوي",
+                        "de": "Gegrillter Oktopus"
+                    },
+                    "description": {
+                        "tr": "Izgara ahtapot, zeytinyağı ve limon ile.",
+                        "en": "Grilled octopus with olive oil and lemon.",
+                        "ar": "أخطبوط مشوي مع زيت الزيتون والليمون.",
+                        "de": "Gegrillter Oktopus mit Olivenöl und Zitrone."
+                    },
+                    "price": 620,
+                    "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "shrimp-butter",
+                    "name": {
+                        "tr": "Tereyağında Karides",
+                        "en": "Shrimp Butter",
+                        "ar": "جمبري بالزبدة",
+                        "de": "Garnelen in Butter"
+                    },
+                    "description": {
+                        "tr": "Tereyağında sotelenmiş karides.",
+                        "en": "Shrimps sautéed in butter.",
+                        "ar": "جمبري سوتيه بالزبدة.",
+                        "de": "In Butter sautierte Garnelen."
+                    },
+                    "price": 620,
+                    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "king-prawns",
+                    "name": {
+                        "tr": "Jumbo Karides",
+                        "en": "King Prawns",
+                        "ar": "جمبري ملكي",
+                        "de": "Königsgarnelen"
+                    },
+                    "description": {
+                        "tr": "Izgara jumbo karides.",
+                        "en": "Grilled king prawns.",
+                        "ar": "جمبري ملكي مشوي.",
+                        "de": "Gegrillte Königsgarnelen."
+                    },
+                    "price": 850,
+                    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "grilled-halloumi",
+                    "name": {
+                        "tr": "Hellim Izgara",
+                        "en": "Grilled Halloumi",
+                        "ar": "حلومي مشوي",
+                        "de": "Gegrillter Halloumi"
+                    },
+                    "description": {
+                        "tr": "Izgara hellim peyniri.",
+                        "en": "Grilled halloumi cheese.",
+                        "ar": "جبنة حلومي مشوية.",
+                        "de": "Gegrillter Halloumi-Käse."
+                    },
+                    "price": 310,
+                    "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=2000&auto=format&fit=crop"
+                }
+            ]
+        },
+        {
+            "id": "desserts",
+            "name": {
+                "tr": "Tatlılar",
+                "en": "Desserts",
+                "ar": "الحلويات",
+                "de": "Desserts"
+            },
+            "items": [
+                {
+                    "id": "katmer",
+                    "name": {
+                        "tr": "Katmer",
+                        "en": "Katmer",
+                        "ar": "كاتمر",
+                        "de": "Katmer"
+                    },
+                    "description": {
+                        "tr": "Antep fıstığı ve kaymakla hazırlanan çıtır yufka tatlısı.",
+                        "en": "Crispy phyllo dessert prepared with pistachios and clotted cream.",
+                        "ar": "حلوى الرقائق المقرمشة المحضرة بالفستق والقشطة.",
+                        "de": "Knuspriges Filoteig-Dessert mit Pistazien und Kajmak."
+                    },
+                    "price": 250,
+                    "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "kunefe",
+                    "name": {
+                        "tr": "Künefe",
+                        "en": "Kunefe",
+                        "ar": "كنافة",
+                        "de": "Künefe"
+                    },
+                    "description": {
+                        "tr": "Şerbetli tel kadayıf arasında eriyen peynirle sıcak tatlı.",
+                        "en": "Hot dessert with melting cheese between syrupy shredded wheat.",
+                        "ar": "حلوى ساخنة مع جبن ذائب بين خيوط العجين المسقية بالقطر.",
+                        "de": "Warmes Dessert mit schmelzendem Käse zwischen sirupgetränktem Fadenteig."
+                    },
+                    "price": 220,
+                    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "baklava",
+                    "name": {
+                        "tr": "Baklava",
+                        "en": "Baklava",
+                        "ar": "بقلاوة",
+                        "de": "Baklava"
+                    },
+                    "description": {
+                        "tr": "Kat kat yufka, ceviz ve şerbetle hazırlanan Türk klasiği.",
+                        "en": "A Turkish classic made with layers of phyllo, walnuts, and syrup.",
+                        "ar": "كلاسيكية تركية محضرة من طبقات العجين والجوز والقطر.",
+                        "de": "Ein türkischer Klassiker aus Schichten von Filoteig, Walnüssen und Sirup."
+                    },
+                    "price": 200,
+                    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=2000&auto=format&fit=crop"
+                }
+            ]
         }
     ]
 }
