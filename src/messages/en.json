@@ -1,0 +1,53 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "menu": "Menu",
+        "about": "About Us",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "welcome": "Welcome to My Terrace",
+        "subtitle": "Experience Traditional Turkish Cuisine with a Breathtaking View",
+        "cta": "View Menu",
+        "book": "Book a Table"
+    },
+    "About": {
+        "title": "About Us",
+        "description": "Located in the heart of Sultanahmet, My Terrace Cafe Restaurant offers a unique dining experience where history meets flavor. Enjoy our authentic Turkish dishes while gazing at the mesmerizing view of the Blue Mosque and Hagia Sophia.",
+        "features": {
+            "view": "Panoramic View",
+            "food": "Authentic Taste",
+            "service": "Quality Service"
+        }
+    },
+    "Menu": {
+        "title": "Our Menu",
+        "subtitle": "Discover the flavors of Anatolia"
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email",
+        "hours": "Opening Hours",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "message": "Message",
+            "send": "Send Message"
+        }
+    },
+    "Footer": {
+        "rights": "All rights reserved."
+    },
+    "FAQ": {
+        "title": "Frequently Asked Questions",
+        "q1": "Can I come without a reservation?",
+        "a1": "Yes, we happily welcome walk-in guests. However, we recommend making a reservation as we can get quite busy, especially on weekends and in the evenings.",
+        "q2": "Are there vegetarian or gluten-free options on the menu?",
+        "a2": "Yes, our menu includes both vegetarian and gluten-free options. Please inform our team if you have any specific dietary requirements when ordering.",
+        "q3": "Which tables have the best view?",
+        "a3": "Our terrace floor stands out with its view of the sea and the historical peninsula. If you prefer a table with a view, simply mention it when making your reservation."
+    }
+}

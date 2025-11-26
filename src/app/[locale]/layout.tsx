@@ -1,0 +1,42 @@
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+
+import { ReactNode } from 'react';
+import '../globals.css';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+
+export default async function LocaleLayout({
+    children,
+    params
+}: {
+    children: ReactNode;
+    params: Promise<{ locale: string }>;
+}) {
+    const { locale } = await params;
+    // Ensure that the incoming `locale` is valid
+    if (!['en', 'tr', 'ar', 'de'].includes(locale)) {
+        notFound();
+    }
+
+    // Providing all messages to the client
+    // side is the easiest way to get started
+    const messages = await getMessages();
+
+    return (
+        <html lang={locale} className="scroll-smooth">
+            <body className="bg-black text-white antialiased">
+                <NextIntlClientProvider messages={messages}>
+                    <GoogleAnalytics />
+                    <Header locale={locale} />
+                    <main className="min-h-screen pt-20">
+                        {children}
+                    </main>
+                    <Footer />
+                </NextIntlClientProvider>
+            </body>
+        </html>
+    );
+}

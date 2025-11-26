@@ -1,0 +1,69 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+import siteInfo from '@/data/site-info.json';
+
+export default function ContactSection() {
+    const t = useTranslations('Contact');
+
+    return (
+        <section id="contact" className="py-20 bg-zinc-900 text-white">
+            <div className="container mx-auto px-4">
+                <div className="text-center mb-12">
+                    <h2 className="text-4xl font-bold mb-4 text-amber-500">{t('title')}</h2>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                    {/* Contact Form */}
+                    <div className="bg-zinc-950 p-8 rounded-2xl border border-zinc-800">
+                        <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+                            <div>
+                                <label className="block text-sm font-medium text-zinc-400 mb-2">{t('form.name')}</label>
+                                <input
+                                    type="text"
+                                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg focus:outline-none focus:border-amber-500 text-white transition-colors"
+                                    placeholder={t('form.name')}
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-sm font-medium text-zinc-400 mb-2">{t('form.email')}</label>
+                                <input
+                                    type="email"
+                                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg focus:outline-none focus:border-amber-500 text-white transition-colors"
+                                    placeholder={t('form.email')}
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-sm font-medium text-zinc-400 mb-2">{t('form.message')}</label>
+                                <textarea
+                                    rows={4}
+                                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg focus:outline-none focus:border-amber-500 text-white transition-colors"
+                                    placeholder={t('form.message')}
+                                ></textarea>
+                            </div>
+                            <button
+                                type="submit"
+                                className="w-full py-4 bg-amber-600 hover:bg-amber-700 text-white font-bold rounded-lg transition-colors"
+                            >
+                                {t('form.send')}
+                            </button>
+                        </form>
+                    </div>
+
+                    {/* Map */}
+                    <div className="h-[500px] rounded-2xl overflow-hidden border border-zinc-800">
+                        <iframe
+                            src={siteInfo.mapUrl}
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}

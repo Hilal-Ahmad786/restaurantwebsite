@@ -1,0 +1,252 @@
+{
+    "categories": [
+        {
+            "id": "traditional",
+            "name": {
+                "tr": "Geleneksel Türk Yemekleri",
+                "en": "Traditional Turkish Dishes",
+                "ar": "الأطباق التركية التقليدية",
+                "de": "Traditionelle türkische Gerichte"
+            },
+            "items": [
+                {
+                    "id": "adana-kebab",
+                    "name": {
+                        "tr": "Adana Kebap",
+                        "en": "Adana Kebab",
+                        "ar": "كباب أضنة",
+                        "de": "Adana Kebab"
+                    },
+                    "description": {
+                        "tr": "Közde acılı kıyma kebabı, bulgur pilavı ve köz sebzeler eşliğinde.",
+                        "en": "Spicy minced meat kebab grilled on charcoal, served with bulgur pilaf and roasted vegetables.",
+                        "ar": "كباب لحم مفروم حار مشوي على الفحم، يقدم مع برغل وخضروات مشوية.",
+                        "de": "Scharfer Hackfleischspieß vom Holzkohlegrill, serviert mit Bulgur und Röstgemüse."
+                    },
+                    "price": 450,
+                    "image": "/images/adana.jpg"
+                },
+                {
+                    "id": "urfa-kebab",
+                    "name": {
+                        "tr": "Urfa Kebap",
+                        "en": "Urfa Kebab",
+                        "ar": "كباب أورفا",
+                        "de": "Urfa Kebab"
+                    },
+                    "description": {
+                        "tr": "Baharatı dengeli, daha az acılı bir klasik kebap lezzeti.",
+                        "en": "A classic kebab taste with balanced spices and less heat.",
+                        "ar": "مذاق كباب كلاسيكي مع بهارات متوازنة وحرارة أقل.",
+                        "de": "Ein klassischer Kebab-Geschmack mit ausgewogenen Gewürzen und weniger Schärfe."
+                    },
+                    "price": 450,
+                    "image": "/images/urfa.jpg"
+                },
+                {
+                    "id": "sac-kavurma",
+                    "name": {
+                        "tr": "Saç Kavurma",
+                        "en": "Sac Kavurma",
+                        "ar": "ساج كافورما",
+                        "de": "Sac Kavurma"
+                    },
+                    "description": {
+                        "tr": "Demir tavada biber ve domatesle sotelenmiş kuşbaşı et.",
+                        "en": "Diced meat sautéed with peppers and tomatoes in an iron pan.",
+                        "ar": "لحم مقطع سوتيه مع الفلفل والطماطم في مقلاة حديدية.",
+                        "de": "Geschnetzeltes Fleisch, sautiert mit Paprika und Tomaten in einer Eisenpfanne."
+                    },
+                    "price": 520,
+                    "image": "/images/sac-kavurma.jpg"
+                }
+            ]
+        },
+        {
+            "id": "seafood",
+            "name": {
+                "tr": "Deniz Ürünleri & Hafif Lezzetler",
+                "en": "Seafood & Light Flavors",
+                "ar": "المأكولات البحرية والنكهات الخفيفة",
+                "de": "Meeresfrüchte & Leichte Aromen"
+            },
+            "items": [
+                {
+                    "id": "izgara-somon",
+                    "name": {
+                        "tr": "Izgara Somon",
+                        "en": "Grilled Salmon",
+                        "ar": "سلمون مشوي",
+                        "de": "Gegrillter Lachs"
+                    },
+                    "description": {
+                        "tr": "Mevsim yeşillikleriyle servis edilen ızgara somon fileto.",
+                        "en": "Grilled salmon fillet served with seasonal greens.",
+                        "ar": "فيليه سلمون مشوي يقدم مع الخضار الموسمية.",
+                        "de": "Gegrilltes Lachsfilet, serviert mit saisonalem Gemüse."
+                    },
+                    "price": 580,
+                    "image": "/images/salmon.jpg"
+                },
+                {
+                    "id": "karides-guvec",
+                    "name": {
+                        "tr": "Karides Güveç",
+                        "en": "Shrimp Casserole",
+                        "ar": "طاجن جمبري",
+                        "de": "Garnelen-Auflauf"
+                    },
+                    "description": {
+                        "tr": "Domates, sarımsak ve kaşarla fırınlanmış sıcak karides lezzeti.",
+                        "en": "Hot shrimp baked with tomatoes, garlic, and kashar cheese.",
+                        "ar": "جمبري ساخن مخبوز مع الطماطم والثوم وجبنة القشقوان.",
+                        "de": "Heiße Garnelen, überbacken mit Tomaten, Knoblauch und Kaschar-Käse."
+                    },
+                    "price": 480,
+                    "image": "/images/shrimp.jpg"
+                },
+                {
+                    "id": "izgara-levrek",
+                    "name": {
+                        "tr": "Izgara Levrek",
+                        "en": "Grilled Sea Bass",
+                        "ar": "قاروص مشوي",
+                        "de": "Gegrillter Wolfsbarsch"
+                    },
+                    "description": {
+                        "tr": "Taze limon ve baharatlarla harmanlanmış hafif beyaz et.",
+                        "en": "Light white meat blended with fresh lemon and spices.",
+                        "ar": "لحم أبيض خفيف ممزوج بالليمون الطازج والبهارات.",
+                        "de": "Leichtes weißes Fleisch, verfeinert mit frischer Zitrone und Gewürzen."
+                    },
+                    "price": 600,
+                    "image": "/images/seabass.jpg"
+                }
+            ]
+        },
+        {
+            "id": "stone-oven",
+            "name": {
+                "tr": "Taş Fırın Lezzetleri",
+                "en": "Stone Oven Flavors",
+                "ar": "نكهات الفرن الحجري",
+                "de": "Steinofen-Spezialitäten"
+            },
+            "items": [
+                {
+                    "id": "kusbasili-pide",
+                    "name": {
+                        "tr": "Kuşbaşılı Pide",
+                        "en": "Pide with Diced Meat",
+                        "ar": "فطيرة باللحم المقطع",
+                        "de": "Pide mit Geschnetzeltem"
+                    },
+                    "description": {
+                        "tr": "Taş fırında pişmiş, etli ve biberli klasik pide.",
+                        "en": "Classic pide with meat and peppers, baked in a stone oven.",
+                        "ar": "فطيرة كلاسيكية باللحم والفلفل، مخبوزة في فرن حجري.",
+                        "de": "Klassische Pide mit Fleisch und Paprika, im Steinofen gebacken."
+                    },
+                    "price": 320,
+                    "image": "/images/pide-meat.jpg"
+                },
+                {
+                    "id": "kasarli-pide",
+                    "name": {
+                        "tr": "Kaşarlı Pide",
+                        "en": "Cheese Pide",
+                        "ar": "فطيرة بالجبن",
+                        "de": "Käse-Pide"
+                    },
+                    "description": {
+                        "tr": "Erimiş kaşar peyniriyle dolu, çıtır kenarlı fırın lezzeti.",
+                        "en": "Oven delight full of melted kashar cheese with crispy edges.",
+                        "ar": "لذة الفرن المليئة بجبنة القشقوان الذائبة مع أطراف مقرمشة.",
+                        "de": "Ofengenuss voller geschmolzenem Kaschar-Käse mit knusprigen Rändern."
+                    },
+                    "price": 280,
+                    "image": "/images/pide-cheese.jpg"
+                },
+                {
+                    "id": "lahmacun",
+                    "name": {
+                        "tr": "Lahmacun",
+                        "en": "Lahmacun",
+                        "ar": "لحم بعجين",
+                        "de": "Lahmacun"
+                    },
+                    "description": {
+                        "tr": "İnce hamur üzerinde baharatlı kıyma ve taze yeşillik.",
+                        "en": "Spicy minced meat and fresh greens on thin dough.",
+                        "ar": "لحم مفروم حار وخضروات طازجة على عجين رقيق.",
+                        "de": "Würziges Hackfleisch und frisches Grün auf dünnem Teig."
+                    },
+                    "price": 150,
+                    "image": "/images/lahmacun.jpg"
+                }
+            ]
+        },
+        {
+            "id": "desserts",
+            "name": {
+                "tr": "Tatlılar",
+                "en": "Desserts",
+                "ar": "الحلويات",
+                "de": "Desserts"
+            },
+            "items": [
+                {
+                    "id": "katmer",
+                    "name": {
+                        "tr": "Katmer",
+                        "en": "Katmer",
+                        "ar": "كاتمر",
+                        "de": "Katmer"
+                    },
+                    "description": {
+                        "tr": "Antep fıstığı ve kaymakla hazırlanan çıtır yufka tatlısı.",
+                        "en": "Crispy phyllo dessert prepared with pistachios and clotted cream.",
+                        "ar": "حلوى الرقائق المقرمشة المحضرة بالفستق والقشطة.",
+                        "de": "Knuspriges Filoteig-Dessert mit Pistazien und Kajmak."
+                    },
+                    "price": 250,
+                    "image": "/images/katmer.jpg"
+                },
+                {
+                    "id": "kunefe",
+                    "name": {
+                        "tr": "Künefe",
+                        "en": "Kunefe",
+                        "ar": "كنافة",
+                        "de": "Künefe"
+                    },
+                    "description": {
+                        "tr": "Şerbetli tel kadayıf arasında eriyen peynirle sıcak tatlı.",
+                        "en": "Hot dessert with melting cheese between syrupy shredded wheat.",
+                        "ar": "حلوى ساخنة مع جبن ذائب بين خيوط العجين المسقية بالقطر.",
+                        "de": "Warmes Dessert mit schmelzendem Käse zwischen sirupgetränktem Fadenteig."
+                    },
+                    "price": 220,
+                    "image": "/images/kunefe.jpg"
+                },
+                {
+                    "id": "baklava",
+                    "name": {
+                        "tr": "Baklava",
+                        "en": "Baklava",
+                        "ar": "بقلاوة",
+                        "de": "Baklava"
+                    },
+                    "description": {
+                        "tr": "Kat kat yufka, ceviz ve şerbetle hazırlanan Türk klasiği.",
+                        "en": "A Turkish classic made with layers of phyllo, walnuts, and syrup.",
+                        "ar": "كلاسيكية تركية محضرة من طبقات العجين والجوز والقطر.",
+                        "de": "Ein türkischer Klassiker aus Schichten von Filoteig, Walnüssen und Sirup."
+                    },
+                    "price": 200,
+                    "image": "/images/baklava.jpg"
+                }
+            ]
+        }
+    ]
+}

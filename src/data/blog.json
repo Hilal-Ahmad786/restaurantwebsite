@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "slug": "history-of-turkish-cuisine",
+        "image": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=80&w=2000&auto=format&fit=crop",
+        "date": "2024-05-15",
+        "title": {
+            "tr": "Türk Mutfağının Tarihsel Yolculuğu",
+            "en": "The Historical Journey of Turkish Cuisine",
+            "ar": "الرحلة التاريخية للمطبخ التركي",
+            "de": "Die historische Reise der türkischen Küche"
+        },
+        "excerpt": {
+            "tr": "Orta Asya'dan Osmanlı saraylarına uzanan zengin bir lezzet mirası.",
+            "en": "A rich heritage of flavors stretching from Central Asia to Ottoman palaces.",
+            "ar": "تراث غني من النكهات يمتد من آسيا الوسطى إلى القصور العثمانية.",
+            "de": "Ein reiches Erbe an Aromen, das von Zentralasien bis zu den osmanischen Palästen reicht."
+        },
+        "content": {
+            "tr": "Türk mutfağı, çeşitliliği ve zenginliği ile dünyanın sayılı mutfaklarından biridir. Orta Asya'daki göçebe kültüründen başlayıp, Anadolu'nun verimli topraklarında şekillenen ve Osmanlı İmparatorluğu'nun saray mutfağında zirveye ulaşan bu lezzet yolculuğu, bugün hala sofralarımızı süslemektedir.\n\nKebaplardan zeytinyağlılara, hamur işlerinden tatlılara kadar uzanan bu geniş yelpaze, her damak tadına hitap eder. Özellikle saray mutfağının etkisiyle gelişen et yemekleri ve tatlılar, Türk gastronomisinin en önemli parçalarıdır. Baharatların ustaca kullanımı, taze sebzelerin ve meyvelerin yemeklerdeki yeri, Türk mutfağını benzersiz kılar.\n\nGünümüzde Türk mutfağı, geleneksel tariflerin modern sunumlarla birleştiği bir evrim geçirmektedir. Ancak özündeki misafirperverlik ve paylaşma kültürü hiç değişmemiştir. Bir Türk sofrasına oturduğunuzda sadece yemek yemez, aynı zamanda binlerce yıllık bir kültürü de deneyimlersiniz.",
+            "en": "Turkish cuisine is one of the few cuisines in the world known for its diversity and richness. Starting from the nomadic culture in Central Asia, shaped in the fertile lands of Anatolia, and reaching its peak in the palace kitchen of the Ottoman Empire, this journey of flavor still adorns our tables today.\n\nThis wide range, extending from kebabs to olive oil dishes, pastries to desserts, appeals to every palate. Meat dishes and desserts, especially developed under the influence of palace cuisine, are the most important parts of Turkish gastronomy. The masterful use of spices and the place of fresh vegetables and fruits in dishes make Turkish cuisine unique.\n\nToday, Turkish cuisine is undergoing an evolution where traditional recipes are combined with modern presentations. However, the hospitality and sharing culture at its core have never changed. When you sit at a Turkish table, you not only eat but also experience a culture dating back thousands of years.",
+            "ar": "يعتبر المطبخ التركي من المطابخ القليلة في العالم المعروفة بتنوعها وثرائها. بدأت هذه الرحلة من الثقافة البدوية في آسيا الوسطى، وتشكلت في أراضي الأناضول الخصبة، وبلغت ذروتها في مطبخ قصر الإمبراطورية العثمانية، ولا تزال تزين موائدنا اليوم.\n\nهذه المجموعة الواسعة، التي تمتد من الكباب إلى أطباق زيت الزيتون، ومن المعجنات إلى الحلويات، تروق لجميع الأذواق. تعتبر أطباق اللحوم والحلويات، التي تطورت بشكل خاص تحت تأثير مطبخ القصر، أهم أجزاء فن الطهي التركي. الاستخدام المتقن للتوابل ومكانة الخضار والفواكه الطازجة في الأطباق تجعل المطبخ التركي فريداً من نوعه.\n\nاليوم، يمر المطبخ التركي بتطور حيث يتم الجمع بين الوصفات التقليدية والعروض التقديمية الحديثة. ومع ذلك، فإن ثقافة الضيافة والمشاركة في جوهرها لم تتغير أبداً. عندما تجلس على مائدة تركية، فإنك لا تأكل فحسب، بل تختبر أيضاً ثقافة تعود لآلاف السنين.",
+            "de": "Die türkische Küche ist eine der wenigen Küchen der Welt, die für ihre Vielfalt und ihren Reichtum bekannt ist. Diese Geschmacksreise, die von der Nomadenkultur in Zentralasien ausging, in den fruchtbaren Ländern Anatoliens geformt wurde und ihren Höhepunkt in der Palastküche des Osmanischen Reiches erreichte, schmückt noch heute unsere Tische.\n\nDiese breite Palette, die von Kebab bis zu Olivenölgerichten, von Gebäck bis zu Desserts reicht, spricht jeden Gaumen an. Fleischgerichte und Desserts, die sich insbesondere unter dem Einfluss der Palastküche entwickelt haben, sind die wichtigsten Bestandteile der türkischen Gastronomie. Der meisterhafte Umgang mit Gewürzen und der Platz von frischem Gemüse und Obst in Gerichten machen die türkische Küche einzigartig.\n\nHeute durchläuft die türkische Küche eine Entwicklung, bei der traditionelle Rezepte mit modernen Präsentationen kombiniert werden. Die Gastfreundschaft und die Kultur des Teilens im Kern haben sich jedoch nie geändert. Wenn Sie an einem türkischen Tisch sitzen, essen Sie nicht nur, sondern erleben auch eine jahrtausendealte Kultur."
+        }
+    },
+    {
+        "id": "2",
+        "slug": "sultanahmet-guide",
+        "image": "https://images.unsplash.com/photo-1527838832700-5059252407fa?q=80&w=2000&auto=format&fit=crop",
+        "date": "2024-05-20",
+        "title": {
+            "tr": "Sultanahmet'te Bir Gün: Tarih ve Lezzet",
+            "en": "A Day in Sultanahmet: History and Flavor",
+            "ar": "يوم في السلطان أحمد: التاريخ والنكهة",
+            "de": "Ein Tag in Sultanahmet: Geschichte und Geschmack"
+        },
+        "excerpt": {
+            "tr": "İstanbul'un kalbinde, tarihi yarımadada gezilecek yerler ve tadılacak lezzetler.",
+            "en": "Places to visit and flavors to taste in the historical peninsula, the heart of Istanbul.",
+            "ar": "أماكن للزيارة ونكهات لتذوقها في شبه الجزيرة التاريخية، قلب إسطنبول.",
+            "de": "Orte zum Besuchen und Aromen zum Probieren auf der historischen Halbinsel, dem Herzen von Istanbul."
+        },
+        "content": {
+            "tr": "Sultanahmet, İstanbul'un en turistik ve tarihi bölgesidir. Ayasofya, Sultanahmet Camii ve Topkapı Sarayı gibi dünya mirası eserlere ev sahipliği yapar. Bu tarihi atmosferde geçirilen bir gün, adeta zamanda yolculuk yapmak gibidir. Meydanda yürürken tarihin fısıltılarını duyabilir, her köşede farklı bir hikayeye tanıklık edebilirsiniz.\n\nBölgeyi gezerken yorulduğunuzda, Türk mutfağının en güzel örneklerini sunan restoranlarda mola verebilirsiniz. Özellikle teraslı mekanlar, bu eşsiz manzarayı lezzetli yemeklerle birleştirerek unutulmaz bir deneyim sunar.\n\nMy Terrace Cafe Restaurant olarak, Sultanahmet'in bu büyülü atmosferinde misafirlerimizi ağırlamaktan gurur duyuyoruz. Gün batımına karşı yenen bir akşam yemeği, günü taçlandırmanın en güzel yoludur. Tarihi yarımadanın ışıkları altında, geleneksel lezzetlerimizin tadını çıkarırken İstanbul'a bir kez daha aşık olacaksınız.",
+            "en": "Sultanahmet is the most touristy and historical region of Istanbul. It is home to world heritage sites such as Hagia Sophia, the Blue Mosque, and Topkapi Palace. A day spent in this historical atmosphere is like traveling in time. While walking in the square, you can hear the whispers of history and witness a different story in every corner.\n\nWhen you get tired while touring the region, you can take a break at restaurants offering the best examples of Turkish cuisine. Especially venues with terraces offer an unforgettable experience by combining this unique view with delicious food.\n\nAs My Terrace Cafe Restaurant, we are proud to host our guests in this magical atmosphere of Sultanahmet. A dinner eaten against the sunset is the best way to crown the day. Under the lights of the historical peninsula, you will fall in love with Istanbul once again while enjoying our traditional flavors.",
+            "ar": "السلطان أحمد هي المنطقة السياحية والتاريخية الأكثر شهرة في إسطنبول. فهي موطن لمواقع التراث العالمي مثل آيا صوفيا والمسجد الأزرق وقصر توبكابي. يوم يقضى في هذا الجو التاريخي يشبه السفر عبر الزمن. أثناء المشي في الساحة، يمكنك سماع همسات التاريخ ومشاهدة قصة مختلفة في كل زاوية.\n\nعندما تتعب أثناء التجول في المنطقة، يمكنك أخذ استراحة في المطاعم التي تقدم أفضل أمثلة المطبخ التركي. تقدم الأماكن ذات التراسات بشكل خاص تجربة لا تُنسى من خلال الجمع بين هذا المنظر الفريد والطعام اللذيذ.\n\nبصفتنا مطعم ومقهى ماي تيراس، نفخر باستضافة ضيوفنا في هذا الجو السحري للسلطان أحمد. العشاء مع غروب الشمس هو أفضل طريقة لتتويج اليوم. تحت أضواء شبه الجزيرة التاريخية، ستقع في حب إسطنبول مرة أخرى بينما تستمتع بنكهاتنا التقليدية.",
+            "de": "Sultanahmet ist die touristischste und historischste Region Istanbuls. Sie beherbergt Weltkulturerbestätten wie die Hagia Sophia, die Blaue Moschee und den Topkapi-Palast. Ein Tag in dieser historischen Atmosphäre ist wie eine Zeitreise. Während Sie über den Platz spazieren, können Sie das Flüstern der Geschichte hören und an jeder Ecke eine andere Geschichte erleben.\n\nWenn Sie beim Rundgang durch die Region müde werden, können Sie in Restaurants eine Pause einlegen, die die besten Beispiele der türkischen Küche bieten. Besonders Orte mit Terrassen bieten ein unvergessliches Erlebnis, indem sie diese einzigartige Aussicht mit köstlichem Essen kombinieren.\n\nAls My Terrace Cafe Restaurant sind wir stolz darauf, unsere Gäste in dieser magischen Atmosphäre von Sultanahmet begrüßen zu dürfen. Ein Abendessen bei Sonnenuntergang ist die beste Art, den Tag zu krönen. Unter den Lichtern der historischen Halbinsel werden Sie sich beim Genuss unserer traditionellen Aromen noch einmal in Istanbul verlieben."
+        }
+    },
+    {
+        "id": "3",
+        "slug": "secrets-of-turkish-tea",
+        "image": "https://images.unsplash.com/photo-1576092762791-dd9e2220abd1?q=80&w=2000&auto=format&fit=crop",
+        "date": "2024-05-25",
+        "title": {
+            "tr": "Türk Çayının Sırları",
+            "en": "Secrets of Turkish Tea",
+            "ar": "أسرار الشاي التركي",
+            "de": "Geheimnisse des türkischen Tees"
+        },
+        "excerpt": {
+            "tr": "İnce belli bardakta sunulan, sohbetlerin vazgeçilmezi Türk çayının demleme incelikleri.",
+            "en": "Brewing intricacies of Turkish tea, indispensable for conversations, served in tulip-shaped glasses.",
+            "ar": "تعقيدات تخمير الشاي التركي، الذي لا غنى عنه للمحادثات، ويقدم في أكواب على شكل خزامى.",
+            "de": "Die Feinheiten des Brauens von türkischem Tee, unverzichtbar für Gespräche, serviert in tulpenförmigen Gläsern."
+        },
+        "content": {
+            "tr": "Türk kültürü denince akla gelen ilk şeylerden biri çaydır. Kahvaltıdan akşam oturmalarına kadar günün her saati tüketilir. Çay, Türk insanı için sadece bir içecek değil, bir sosyalleşme aracıdır. 'Çay koydum, gel' demek, en samimi davetlerden biridir.\n\nİyi bir Türk çayı için kaliteli çay yaprakları, kireçsiz su ve porselen demlik şarttır. Çayın tavşan kanı rengini alması için kısık ateşte yavaşça demlenmesi gerekir. Demleme süresi ve suyun sıcaklığı, çayın tadını belirleyen en önemli faktörlerdir.\n\nİnce belli bardak ise çay keyfinin olmazsa olmazıdır. Çayın rengini gösterir, sıcak kalmasını sağlar ve tutuşu kolaylaştırır. Yanında bir parça lokum veya kurabiye ile sunulan taze demlenmiş bir çay, günün yorgunluğunu atmak için birebirdir.",
+            "en": "One of the first things that comes to mind when mentioning Turkish culture is tea. It is consumed at all hours of the day, from breakfast to evening gatherings. Tea is not just a drink for Turkish people, but a means of socialization. Saying 'I put the tea on, come over' is one of the most sincere invitations.\n\nQuality tea leaves, lime-free water, and a porcelain teapot are essential for good Turkish tea. The tea needs to be brewed slowly over low heat to achieve its rabbit-blood color. Brewing time and water temperature are the most important factors determining the taste of the tea.\n\nThe tulip-shaped glass is indispensable for tea enjoyment. It shows the color of the tea, keeps it warm, and makes it easy to hold. Freshly brewed tea served with a piece of Turkish delight or a cookie is perfect for relieving the tiredness of the day.",
+            "ar": "من أول الأشياء التي تتبادر إلى الذهن عند ذكر الثقافة التركية هو الشاي. يتم استهلاكه في جميع ساعات اليوم، من الإفطار إلى التجمعات المسائية. الشاي ليس مجرد مشروب للشعب التركي، بل هو وسيلة للتواصل الاجتماعي. قول 'لقد وضعت الشاي، تعال' هو أحد أكثر الدعوات صدقاً.\n\nأوراق الشاي عالية الجودة، والمياه الخالية من الجير، وإبريق الشاي الخزفي ضرورية للحصول على شاي تركي جيد. يجب تخمير الشاي ببطء على نار خفيفة للحصول على لونه الأحمر الداكن. وقت التخمير ودرجة حرارة الماء هما أهم العوامل التي تحدد طعم الشاي.\n\nالكوب على شكل خزامى لا غنى عنه للاستمتاع بالشاي. يظهر لون الشاي، ويبقيه دافئاً، ويسهل حمله. الشاي المخمر الطازج المقدم مع قطعة من الحلقوم أو البسكويت مثالي لتخفيف تعب اليوم.",
+            "de": "Eines der ersten Dinge, die einem in den Sinn kommen, wenn man die türkische Kultur erwähnt, ist Tee. Er wird zu jeder Tageszeit konsumiert, vom Frühstück bis zu abendlichen Zusammenkünften. Tee ist für die Türken nicht nur ein Getränk, sondern ein Mittel zur Sozialisierung. Zu sagen 'Ich habe den Tee aufgesetzt, komm vorbei' ist eine der aufrichtigsten Einladungen.\n\nHochwertige Teeblätter, kalkfreies Wasser und eine Porzellanteekanne sind für guten türkischen Tee unerlässlich. Der Tee muss langsam bei schwacher Hitze ziehen, um seine kaninchenblutrote Farbe zu erhalten. Ziehzeit und Wassertemperatur sind die wichtigsten Faktoren, die den Geschmack des Tees bestimmen.\n\nDas tulpenförmige Glas ist für den Teegenuss unverzichtbar. Es zeigt die Farbe des Tees, hält ihn warm und erleichtert das Halten. Frisch gebrühter Tee, serviert mit einem Stück türkischem Honig oder einem Keks, ist perfekt, um die Müdigkeit des Tages zu lindern."
+        }
+    },
+    {
+        "id": "4",
+        "slug": "best-kebabs",
+        "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?q=80&w=2000&auto=format&fit=crop",
+        "date": "2024-06-01",
+        "title": {
+            "tr": "Hangi Kebap Sizin İçin?",
+            "en": "Which Kebab is for You?",
+            "ar": "أي كباب يناسبك؟",
+            "de": "Welcher Kebab ist für Sie?"
+        },
+        "excerpt": {
+            "tr": "Adana, Urfa, İskender... Türk mutfağının en sevilen kebap çeşitlerini tanıyın.",
+            "en": "Adana, Urfa, Iskender... Get to know the most popular kebab varieties of Turkish cuisine.",
+            "ar": "أضنة، أورفا، إسكندر... تعرف على أشهر أنواع الكباب في المطبخ التركي.",
+            "de": "Adana, Urfa, Iskender... Lernen Sie die beliebtesten Kebab-Sorten der türkischen Küche kennen."
+        },
+        "content": {
+            "tr": "Kebap, Türk mutfağının en önemli yapı taşlarından biridir ve her bölgenin kendine has bir kebap çeşidi vardır. Acı severler için zırhla çekilen kıymadan yapılan Adana Kebap vazgeçilmezdir. Daha sade ve acısız bir lezzet arayanlar için ise Urfa Kebap mükemmel bir tercihtir.\n\nYoğurt ve tereyağı uyumunu sevenler için İskender Kebap, Bursa'dan dünyaya yayılan bir lezzet şölenidir. Patlıcanlı kebap, domatesli kebap gibi sebzeli çeşitler de mevcuttur. Kebaplar genellikle közlenmiş biber, domates, soğan ve lavaş ekmeği ile servis edilir.\n\nRestoranımızda, ustalarımızın özenle hazırladığı bu kebap çeşitlerini en otantik halleriyle deneyimleyebilirsiniz. Etin kalitesi, pişirme tekniği ve sunum, kebabın lezzetini belirleyen unsurlardır. Hangi kebabı seçerseniz seçin, unutulmaz bir lezzet deneyimi sizi bekliyor.",
+            "en": "Kebab is one of the most important cornerstones of Turkish cuisine, and every region has its own unique type of kebab. For spice lovers, Adana Kebab made from hand-minced meat is indispensable. For those seeking a simpler and non-spicy taste, Urfa Kebab is an excellent choice.\n\nFor those who love the harmony of yogurt and butter, Iskender Kebab is a feast of flavor spreading from Bursa to the world. Varieties with vegetables such as eggplant kebab and tomato kebab are also available. Kebabs are usually served with roasted peppers, tomatoes, onions, and lavash bread.\n\nIn our restaurant, you can experience these kebab varieties prepared with care by our masters in their most authentic forms. The quality of the meat, the cooking technique, and the presentation are the elements that determine the taste of the kebab. Whichever kebab you choose, an unforgettable flavor experience awaits you.",
+            "ar": "الكباب هو أحد أهم ركائز المطبخ التركي، ولكل منطقة نوعها الفريد من الكباب. بالنسبة لمحبي التوابل، فإن كباب أضنة المصنوع من اللحم المفروم يدوياً لا غنى عنه. بالنسبة لأولئك الذين يبحثون عن طعم أبسط وغير حار، فإن كباب أورفا هو خيار ممتاز.\n\nبالنسبة لأولئك الذين يحبون انسجام الزبادي والزبدة، فإن كباب إسكندر هو وليمة من النكهة تنتشر من بورصة إلى العالم. تتوفر أيضاً أصناف مع الخضار مثل كباب الباذنجان وكباب الطماطم. يتم تقديم الكباب عادة مع الفلفل المشوي والطماطم والبصل وخبز اللافاش.\n\nفي مطعمنا، يمكنك تجربة أصناف الكباب هذه المحضرة بعناية من قبل أساتذتنا بأكثر أشكالها أصالة. جودة اللحم وتقنية الطهي والتقديم هي العناصر التي تحدد طعم الكباب. أياً كان الكباب الذي تختاره، تنتظرك تجربة نكهة لا تُنسى.",
+            "de": "Kebab ist einer der wichtigsten Eckpfeiler der türkischen Küche, und jede Region hat ihre eigene einzigartige Kebab-Sorte. Für Schärfeliebhaber ist der aus handgehacktem Fleisch hergestellte Adana Kebab unverzichtbar. Für diejenigen, die einen einfacheren und nicht scharfen Geschmack suchen, ist Urfa Kebab eine ausgezeichnete Wahl.\n\nFür diejenigen, die die Harmonie von Joghurt und Butter lieben, ist Iskender Kebab ein Fest des Geschmacks, das sich von Bursa aus in die Welt verbreitet. Sorten mit Gemüse wie Auberginen-Kebab und Tomaten-Kebab sind ebenfalls erhältlich. Kebabs werden normalerweise mit gerösteten Paprika, Tomaten, Zwiebeln und Lavash-Brot serviert.\n\nIn unserem Restaurant können Sie diese Kebab-Sorten, die von unseren Meistern sorgfältig zubereitet werden, in ihrer authentischsten Form erleben. Die Qualität des Fleisches, die Kochtechnik und die Präsentation sind die Elemente, die den Geschmack des Kebabs bestimmen. Welchen Kebab Sie auch wählen, es erwartet Sie ein unvergessliches Geschmackserlebnis."
+        }
+    },
+    {
+        "id": "5",
+        "slug": "turkish-breakfast",
+        "image": "https://images.unsplash.com/photo-1692613149479-24796332152d?q=80&w=2000&auto=format&fit=crop",
+        "date": "2024-06-10",
+        "title": {
+            "tr": "Serpme Türk Kahvaltısı",
+            "en": "Traditional Turkish Breakfast Spread",
+            "ar": "فطور تركي تقليدي",
+            "de": "Traditionelles türkisches Frühstück"
+        },
+        "excerpt": {
+            "tr": "Güne mutlu başlamanın sırrı: Çeşit çeşit peynirler, zeytinler ve sıcak hamur işleri.",
+            "en": "The secret to starting the day happy: A variety of cheeses, olives, and hot pastries.",
+            "ar": "سر بدء اليوم بسعادة: مجموعة متنوعة من الأجبان والزيتون والمعجنات الساخنة.",
+            "de": "Das Geheimnis für einen glücklichen Start in den Tag: Eine Auswahl an Käse, Oliven und warmem Gebäck."
+        },
+        "content": {
+            "tr": "Türk kahvaltısı sadece bir öğün değil, bir kültürdür. 'Serpme' kahvaltıda masanın her köşesi lezzetle dolar. Peynir çeşitleri, zeytinler, bal-kaymak, menemen, sucuklu yumurta ve taze demlenmiş çay... Bu zengin sofra, aile ve dostlarla yapılan uzun sohbetlerin en güzel eşlikçisidir.\n\nKahvaltıda sunulan her ürünün ayrı bir yeri vardır. Beyaz peynir, kaşar, tulum peyniri gibi çeşitler peynir tabağını oluşturur. Siyah ve yeşil zeytinler, domates ve salatalık söğüş, kahvaltının ferahlatıcı unsurlarıdır. Sıcak olarak ise sigara böreği, pişi veya simit mutlaka bulunur.\n\nMy Terrace Cafe Restaurant'ta, Sultanahmet manzarası eşliğinde yapacağınız kahvaltı, güne enerjik ve mutlu başlamanızı sağlar. Taze ve doğal ürünlerle hazırladığımız kahvaltımız, hem gözünüze hem de damağınıza hitap eder. Türk misafirperverliğinin en güzel örneği olan bu kahvaltı deneyimini kaçırmayın.",
+            "en": "Turkish breakfast is not just a meal, it is a culture. In a 'spread' breakfast, every corner of the table is filled with flavor. Cheese varieties, olives, honey and clotted cream, menemen, eggs with sujuk, and freshly brewed tea... This rich table is the best accompaniment to long conversations with family and friends.\n\nEvery item served at breakfast has a special place. Varieties such as feta cheese, kashar, and tulum cheese form the cheese platter. Black and green olives, sliced tomatoes and cucumbers are the refreshing elements of breakfast. As for hot dishes, cheese rolls (sigara böreği), fried dough (pişi), or simit are definitely present.\n\nAt My Terrace Cafe Restaurant, the breakfast you will have accompanied by the view of Sultanahmet ensures you start the day energetic and happy. Our breakfast, prepared with fresh and natural products, appeals to both your eyes and your palate. Do not miss this breakfast experience, which is the best example of Turkish hospitality.",
+            "ar": "الفطور التركي ليس مجرد وجبة، بل هو ثقافة. في فطور 'الانتشار'، تمتلئ كل زاوية من الطاولة بالنكهة. أنواع الجبن، والزيتون، والعسل والقشطة، والمينمين، والبيض مع السجق، والشاي المخمر الطازج... هذه المائدة الغنية هي أفضل رفيق للمحادثات الطويلة مع العائلة والأصدقاء.\n\nكل عنصر يتم تقديمه في الإفطار له مكان خاص. تشكل أصناف مثل جبن الفيتا والقشقوان وجبن التولوم طبق الجبن. الزيتون الأسود والأخضر وشرائح الطماطم والخيار هي العناصر المنعشة للإفطار. أما بالنسبة للأطباق الساخنة، فإن لفائف الجبن (سيجارة بوريك) أو العجين المقلي (بيشي) أو السميت موجودة بالتأكيد.\n\nفي مطعم ومقهى ماي تيراس، يضمن لك الإفطار الذي ستتناوله بصحبة إطلالة السلطان أحمد بدء يومك بنشاط وسعادة. إفطارنا، المحضر بمنتجات طازجة وطبيعية، يروق لكل من عينيك ومذاقك. لا تفوت تجربة الإفطار هذه، التي تعد أفضل مثال على الضيافة التركية.",
+            "de": "Das türkische Frühstück ist nicht nur eine Mahlzeit, es ist eine Kultur. Bei einem 'Streu'-Frühstück ist jede Ecke des Tisches mit Geschmack gefüllt. Käsesorten, Oliven, Honig und Kajmak, Menemen, Eier mit Sucuk und frisch gebrühter Tee... Dieser reichhaltige Tisch ist die beste Begleitung für lange Gespräche mit Familie und Freunden.\n\nJedes beim Frühstück servierte Produkt hat einen besonderen Platz. Sorten wie Feta-Käse, Kaschar und Tulum-Käse bilden die Käseplatte. Schwarze und grüne Oliven, geschnittene Tomaten und Gurken sind die erfrischenden Elemente des Frühstücks. Als warme Gerichte sind Käseröllchen (Sigara Böreği), frittierter Teig (Pişi) oder Simit definitiv vorhanden.\n\nIm My Terrace Cafe Restaurant sorgt das Frühstück, das Sie begleitet vom Blick auf Sultanahmet einnehmen, dafür, dass Sie energiegeladen und glücklich in den Tag starten. Unser Frühstück, zubereitet mit frischen und natürlichen Produkten, spricht sowohl Ihre Augen als auch Ihren Gaumen an. Verpassen Sie nicht dieses Frühstückserlebnis, das das beste Beispiel für türkische Gastfreundschaft ist."
+        }
+    }
+]
