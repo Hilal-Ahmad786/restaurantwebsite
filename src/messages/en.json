@@ -1,4 +1,8 @@
 {
+    "TopBar": {
+        "viewText": "Historic Peninsula View",
+        "rating": "4.9 Google Rating"
+    },
     "Navigation": {
         "home": "Home",
         "menu": "Menu",
@@ -40,7 +44,10 @@
         }
     },
     "Footer": {
-        "rights": "All rights reserved."
+        "rights": "All rights reserved.",
+        "quickLinks": "Quick Links",
+        "contact": "Contact",
+        "hours": "Opening Hours"
     },
     "FAQ": {
         "title": "Frequently Asked Questions",

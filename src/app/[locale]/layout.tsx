@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 
 import { ReactNode } from 'react';
 import '../globals.css';
+import TopBar from '@/components/TopBar';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
@@ -41,14 +42,16 @@ export default async function LocaleLayout({
             <body className="bg-white text-zinc-900 antialiased" suppressHydrationWarning>
                 <NextIntlClientProvider messages={messages}>
                     <GoogleAnalytics />
+                    <TopBar />
                     <Header locale={locale} />
                     <main className="min-h-screen pt-20">
                         {children}
                     </main>
-                    <Footer />
+                    <Footer locale={locale} />
                     <FloatingCallButton />
                 </NextIntlClientProvider>
             </body>
         </html>
+
     );
 }

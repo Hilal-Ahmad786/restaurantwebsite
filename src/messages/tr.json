@@ -1,4 +1,8 @@
 {
+    "TopBar": {
+        "viewText": "Tarihi Yarımada Manzarası",
+        "rating": "4.9 Google Puanı"
+    },
     "Navigation": {
         "home": "Ana Sayfa",
         "menu": "Menü",
@@ -40,7 +44,10 @@
         }
     },
     "Footer": {
-        "rights": "Tüm hakları saklıdır."
+        "rights": "Tüm hakları saklıdır.",
+        "quickLinks": "Hızlı Bağlantılar",
+        "contact": "İletişim",
+        "hours": "Çalışma Saatleri"
     },
     "FAQ": {
         "title": "Sıkça Sorulan Sorular",

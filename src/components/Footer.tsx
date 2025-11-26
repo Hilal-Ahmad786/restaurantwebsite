@@ -2,11 +2,12 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Facebook, Instagram, MapPin, Phone, Mail, Moon, Clock } from 'lucide-react';
+import { Facebook, Instagram, MapPin, Phone, Mail, Clock } from 'lucide-react';
 import siteInfo from '@/data/site-info.json';
 
-export default function Footer() {
+export default function Footer({ locale }: { locale: string }) {
     const t = useTranslations('Footer');
+    const nav = useTranslations('Navigation');
 
     return (
         <footer className="bg-zinc-50 text-zinc-600 py-12 border-t border-zinc-200">
@@ -30,20 +31,20 @@ export default function Footer() {
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-lg font-semibold text-zinc-900 mb-4">Quick Links</h4>
+                        <h4 className="text-lg font-semibold text-zinc-900 mb-4">{t('quickLinks')}</h4>
                         <ul className="space-y-2">
-                            <li><Link href="/" className="hover:text-amber-600 transition-colors">Home</Link></li>
-                            <li><Link href="/menu" className="hover:text-amber-600 transition-colors">Menu</Link></li>
-                            <li><Link href="/about" className="hover:text-amber-600 transition-colors">About</Link></li>
-                            <li><Link href="/blog" className="hover:text-amber-600 transition-colors">Blog</Link></li>
-                            <li><Link href="/gallery" className="hover:text-amber-600 transition-colors">Gallery</Link></li>
-                            <li><Link href="/contact" className="hover:text-amber-600 transition-colors">Contact</Link></li>
+                            <li><Link href={`/${locale}`} className="hover:text-amber-600 transition-colors">{nav('home')}</Link></li>
+                            <li><Link href={`/${locale}/menu`} className="hover:text-amber-600 transition-colors">{nav('menu')}</Link></li>
+                            <li><Link href={`/${locale}/about`} className="hover:text-amber-600 transition-colors">{nav('about')}</Link></li>
+                            <li><Link href={`/${locale}/blog`} className="hover:text-amber-600 transition-colors">{nav('blog')}</Link></li>
+                            <li><Link href={`/${locale}/gallery`} className="hover:text-amber-600 transition-colors">{nav('gallery')}</Link></li>
+                            <li><Link href={`/${locale}/contact`} className="hover:text-amber-600 transition-colors">{nav('contact')}</Link></li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h4 className="text-lg font-semibold text-zinc-900 mb-4">Contact</h4>
+                        <h4 className="text-lg font-semibold text-zinc-900 mb-4">{t('contact')}</h4>
                         <div className="space-y-2 text-zinc-500">
                             <div className="flex items-start gap-2">
                                 <MapPin size={20} className="shrink-0 mt-1 text-amber-600" />
@@ -66,7 +67,7 @@ export default function Footer() {
 
                     {/* Hours */}
                     <div>
-                        <h4 className="text-lg font-semibold text-zinc-900 mb-4">Opening Hours</h4>
+                        <h4 className="text-lg font-semibold text-zinc-900 mb-4">{t('hours')}</h4>
                         <div className="flex items-center gap-2 text-zinc-500">
                             <Clock size={20} className="text-amber-600" />
                             <p>Everyday: {siteInfo.openingHours}</p>
@@ -75,7 +76,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-zinc-200 pt-8 text-center text-zinc-400 text-sm">
-                    <p>&copy; {new Date().getFullYear()} {siteInfo.name}. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} {siteInfo.name}. {t('rights')}</p>
                     <div className="mt-2 flex justify-center items-center gap-2">
                         <a
                             href="https://paksoft.com.tr"
@@ -84,7 +85,7 @@ export default function Footer() {
                             className="flex items-center group"
                         >
                             <span className="text-zinc-500 mr-2 group-hover:text-amber-600 transition-colors">Developed by</span>
-                            <div className="flex items-center gap-1 text-amber-600 group-hover:text-amber-500 transition-colors">
+                            <div className="flex items-center text-amber-600 group-hover:text-amber-500 transition-colors">
                                 {/* Custom Crescent Icon */}
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -rotate-12">
                                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.85 0 3.58-.5 5.08-1.38-.7.13-1.42.21-2.16.21-5.52 0-10-4.48-10-10S9.42 2.83 14.92 2.83c.74 0 1.46.08 2.16.21C15.58 2.5 13.85 2 12 2z" />

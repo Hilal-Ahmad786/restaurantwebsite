@@ -1,12 +1,521 @@
 {
     "categories": [
         {
-            "id": "traditional",
+            "id": "starters",
             "name": {
-                "tr": "Geleneksel Türk Yemekleri",
-                "en": "Traditional Turkish Dishes",
-                "ar": "الأطباق التركية التقليدية",
-                "de": "Traditionelle türkische Gerichte"
+                "tr": "Soğuk Mezeler",
+                "en": "Cold Starters",
+                "ar": "المقبلات الباردة",
+                "de": "Kalte Vorspeisen"
+            },
+            "items": [
+                {
+                    "id": "acili-ezme",
+                    "name": {
+                        "tr": "Acılı Ezme",
+                        "en": "Spicy Tomato Dip",
+                        "ar": "صلصة الطماطم الحارة",
+                        "de": "Scharfer Tomaten-Dip"
+                    },
+                    "description": {
+                        "tr": "Domates, biber ve baharatlarla hazırlanan acılı ezme.",
+                        "en": "Spicy dip prepared with tomatoes, peppers and spices.",
+                        "ar": "صلصة حارة محضرة بالطماطم والفلفل والبهارات.",
+                        "de": "Scharfer Dip mit Tomaten, Paprika und Gewürzen."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1625938145312-c260f3e6c2e1?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "haydari",
+                    "name": {
+                        "tr": "Haydari",
+                        "en": "Yoghurt with Garlic",
+                        "ar": "لبن بالثوم",
+                        "de": "Joghurt mit Knoblauch"
+                    },
+                    "description": {
+                        "tr": "Sarımsaklı yoğurt mezesi, taze naneli.",
+                        "en": "Garlic yoghurt dip with fresh mint.",
+                        "ar": "صلصة لبن بالثوم مع النعناع الطازج.",
+                        "de": "Knoblauch-Joghurt-Dip mit frischer Minze."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1628294895950-9805252327bc?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "saksuka",
+                    "name": {
+                        "tr": "Şakşuka",
+                        "en": "Eggplant Sauce",
+                        "ar": "صلصة الباذنجان",
+                        "de": "Auberginen-Sauce"
+                    },
+                    "description": {
+                        "tr": "Kızarmış patlıcan, domates ve biberle hazırlanan meze.",
+                        "en": "Dip prepared with fried eggplant, tomatoes and peppers.",
+                        "ar": "صلصة محضرة بالباذنجان المقلي والطماطم والفلفل.",
+                        "de": "Dip mit gebratenen Auberginen, Tomaten und Paprika."
+                    },
+                    "price": 140,
+                    "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "humus",
+                    "name": {
+                        "tr": "Humus",
+                        "en": "Humus",
+                        "ar": "حمص",
+                        "de": "Hummus"
+                    },
+                    "description": {
+                        "tr": "Nohut ezmesi, tahin ve zeytinyağı ile.",
+                        "en": "Chickpea puree with tahini and olive oil.",
+                        "ar": "هريس الحمص مع الطحينة وزيت الزيتون.",
+                        "de": "Kichererbsenpüree mit Tahini und Olivenöl."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "yaprak-sarma",
+                    "name": {
+                        "tr": "Yaprak Sarma",
+                        "en": "Vine Leaves",
+                        "ar": "ورق عنب",
+                        "de": "Weinblätter"
+                    },
+                    "description": {
+                        "tr": "Zeytinyağlı pirinçli yaprak sarması.",
+                        "en": "Stuffed vine leaves with rice and olive oil.",
+                        "ar": "ورق عنب محشي بالأرز وزيت الزيتون.",
+                        "de": "Gefüllte Weinblätter mit Reis und Olivenöl."
+                    },
+                    "price": 140,
+                    "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "patlican-ezmesi",
+                    "name": {
+                        "tr": "Patlıcan Ezmesi",
+                        "en": "Eggplant Sauce",
+                        "ar": "صلصة الباذنجان",
+                        "de": "Auberginen-Sauce"
+                    },
+                    "description": {
+                        "tr": "Közlenmiş patlıcan ezmesi, yoğurt ve sarımsak ile.",
+                        "en": "Roasted eggplant puree with yoghurt and garlic.",
+                        "ar": "هريس الباذنجان المشوي مع اللبن والثوم.",
+                        "de": "Gegrilltes Auberginenpüree mit Joghurt und Knoblauch."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "atom",
+                    "name": {
+                        "tr": "Atom",
+                        "en": "Spicy Dip Sauce",
+                        "ar": "صلصة حارة",
+                        "de": "Scharfe Dip-Sauce"
+                    },
+                    "description": {
+                        "tr": "Acı biber ve baharatlarla hazırlanan özel sos.",
+                        "en": "Special sauce prepared with hot peppers and spices.",
+                        "ar": "صلصة خاصة محضرة بالفلفل الحار والبهارات.",
+                        "de": "Spezielle Sauce mit scharfen Paprika und Gewürzen."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1625938145312-c260f3e6c2e1?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "hamsi-salamura",
+                    "name": {
+                        "tr": "Hamsi Salamura",
+                        "en": "Anchovys Marina",
+                        "ar": "أنشوجة مخللة",
+                        "de": "Eingelegte Sardellen"
+                    },
+                    "description": {
+                        "tr": "Taze hamsi balığı, salamura edilmiş.",
+                        "en": "Fresh anchovies, marinated.",
+                        "ar": "أنشوجة طازجة، مخللة.",
+                        "de": "Frische Sardellen, mariniert."
+                    },
+                    "price": 150,
+                    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "lakerda",
+                    "name": {
+                        "tr": "Lakerda",
+                        "en": "Lakerda",
+                        "ar": "لاكيردا",
+                        "de": "Lakerda"
+                    },
+                    "description": {
+                        "tr": "Tuzlanmış palamut balığı dilimleri.",
+                        "en": "Salted bonito fish slices.",
+                        "ar": "شرائح سمك البونيتو المملح.",
+                        "de": "Gesalzene Bonito-Fischscheiben."
+                    },
+                    "price": 180,
+                    "image": "https://images.unsplash.com/photo-1580959375944-0b6e7f0d0a6f?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "karides-sogu",
+                    "name": {
+                        "tr": "Karides Soğuğu",
+                        "en": "Shrimps Rope",
+                        "ar": "جمبري بارد",
+                        "de": "Kalte Garnelen"
+                    },
+                    "description": {
+                        "tr": "Haşlanmış karides, özel sosla servis edilir.",
+                        "en": "Boiled shrimps served with special sauce.",
+                        "ar": "جمبري مسلوق يقدم مع صلصة خاصة.",
+                        "de": "Gekochte Garnelen mit spezieller Sauce serviert."
+                    },
+                    "price": 200,
+                    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "ahtapot-salatasi",
+                    "name": {
+                        "tr": "Ahtapot Salatası",
+                        "en": "Octopus Salad",
+                        "ar": "سلطة الأخطبوط",
+                        "de": "Oktopussalat"
+                    },
+                    "description": {
+                        "tr": "Haşlanmış ahtapot, zeytinyağı ve limon ile.",
+                        "en": "Boiled octopus with olive oil and lemon.",
+                        "ar": "أخطبوط مسلوق مع زيت الزيتون والليمون.",
+                        "de": "Gekochter Oktopus mit Olivenöl und Zitrone."
+                    },
+                    "price": 220,
+                    "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2000&auto=format&fit=crop"
+                }
+            ]
+        },
+        {
+            "id": "salads",
+            "name": {
+                "tr": "Salatalar",
+                "en": "Salad's",
+                "ar": "السلطات",
+                "de": "Salate"
+            },
+            "items": [
+                {
+                    "id": "coban-salata",
+                    "name": {
+                        "tr": "Çoban Salata",
+                        "en": "Shepherds Salad",
+                        "ar": "سلطة الراعي",
+                        "de": "Hirtensalat"
+                    },
+                    "description": {
+                        "tr": "Domates, salatalık, soğan ve biberle taze salata.",
+                        "en": "Fresh salad with tomatoes, cucumber, onion and peppers.",
+                        "ar": "سلطة طازجة مع الطماطم والخيار والبصل والفلفل.",
+                        "de": "Frischer Salat mit Tomaten, Gurken, Zwiebeln und Paprika."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "yesil-salata",
+                    "name": {
+                        "tr": "Yeşil Salata",
+                        "en": "Green Salad",
+                        "ar": "سلطة خضراء",
+                        "de": "Grüner Salat"
+                    },
+                    "description": {
+                        "tr": "Mevsim yeşillikleri, marul ve roka ile.",
+                        "en": "Seasonal greens with lettuce and arugula.",
+                        "ar": "خضروات موسمية مع الخس والجرجير.",
+                        "de": "Saisonales Grün mit Salat und Rucola."
+                    },
+                    "price": 110,
+                    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "yunan-salata",
+                    "name": {
+                        "tr": "Yunan Salata",
+                        "en": "Greek Salad",
+                        "ar": "سلطة يونانية",
+                        "de": "Griechischer Salat"
+                    },
+                    "description": {
+                        "tr": "Beyaz peynir, zeytin, domates ve salatalık ile.",
+                        "en": "With feta cheese, olives, tomatoes and cucumber.",
+                        "ar": "مع جبنة فيتا وزيتون وطماطم وخيار.",
+                        "de": "Mit Feta-Käse, Oliven, Tomaten und Gurken."
+                    },
+                    "price": 140,
+                    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "sef-salata",
+                    "name": {
+                        "tr": "Şef Salata",
+                        "en": "Chop Salad",
+                        "ar": "سلطة الشيف",
+                        "de": "Chef-Salat"
+                    },
+                    "description": {
+                        "tr": "Tavuk, mısır, yeşillik ve özel sosla hazırlanan salata.",
+                        "en": "Salad prepared with chicken, corn, greens and special sauce.",
+                        "ar": "سلطة محضرة بالدجاج والذرة والخضروات وصلصة خاصة.",
+                        "de": "Salat mit Hähnchen, Mais, Grün und spezieller Sauce."
+                    },
+                    "price": 160,
+                    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "ton-balikli-salata",
+                    "name": {
+                        "tr": "Ton Balıklı Salata",
+                        "en": "Tuna Fish Salad",
+                        "ar": "سلطة التونة",
+                        "de": "Thunfischsalat"
+                    },
+                    "description": {
+                        "tr": "Ton balığı, yeşillik ve sebzelerle hazırlanan salata.",
+                        "en": "Salad prepared with tuna, greens and vegetables.",
+                        "ar": "سلطة محضرة بالتونة والخضروات.",
+                        "de": "Salat mit Thunfisch, Grün und Gemüse."
+                    },
+                    "price": 170,
+                    "image": "https://images.unsplash.com/photo-1551248429-40975aa4de74?q=80&w=2000&auto=format&fit=crop"
+                }
+            ]
+        },
+        {
+            "id": "breakfast",
+            "name": {
+                "tr": "Kahvaltı",
+                "en": "Breakfast",
+                "ar": "الإفطار",
+                "de": "Frühstück"
+            },
+            "items": [
+                {
+                    "id": "serpme-kahvalti",
+                    "name": {
+                        "tr": "Serpme Kahvaltı",
+                        "en": "Serklis Styla Breakfast",
+                        "ar": "إفطار تركي تقليدي",
+                        "de": "Traditionelles türkisches Frühstück"
+                    },
+                    "description": {
+                        "tr": "Peynir çeşitleri, zeytin, reçel, bal, tereyağı, yumurta ve daha fazlası.",
+                        "en": "Cheese varieties, olives, jam, honey, butter, eggs and more.",
+                        "ar": "أنواع الجبن والزيتون والمربى والعسل والزبدة والبيض والمزيد.",
+                        "de": "Käsesorten, Oliven, Marmelade, Honig, Butter, Eier und mehr."
+                    },
+                    "price": 500,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "misir-gevregi",
+                    "name": {
+                        "tr": "Mısır Gevreği",
+                        "en": "Cornflakes",
+                        "ar": "رقائق الذرة",
+                        "de": "Cornflakes"
+                    },
+                    "description": {
+                        "tr": "Süt ve meyve ile servis edilir.",
+                        "en": "Served with milk and fruit.",
+                        "ar": "يقدم مع الحليب والفواكه.",
+                        "de": "Serviert mit Milch und Obst."
+                    },
+                    "price": 150,
+                    "image": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "sahanda-yumurta",
+                    "name": {
+                        "tr": "Sahanda Yumurta",
+                        "en": "Browse Eggs",
+                        "ar": "بيض مقلي",
+                        "de": "Spiegeleier"
+                    },
+                    "description": {
+                        "tr": "Tereyağında pişmiş yumurta.",
+                        "en": "Eggs cooked in butter.",
+                        "ar": "بيض مطبوخ بالزبدة.",
+                        "de": "In Butter gebratene Eier."
+                    },
+                    "price": 110,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "yumurtali-ekmek",
+                    "name": {
+                        "tr": "Yumurtalı Ekmek",
+                        "en": "Bread with Eggs",
+                        "ar": "خبز بالبيض",
+                        "de": "Brot mit Eiern"
+                    },
+                    "description": {
+                        "tr": "Kızarmış ekmek üzerinde yumurta.",
+                        "en": "Eggs on toasted bread.",
+                        "ar": "بيض على خبز محمص.",
+                        "de": "Eier auf geröstetem Brot."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "sucuklu-yumurta",
+                    "name": {
+                        "tr": "Sucuklu Yumurta",
+                        "en": "Eggs with Sausage",
+                        "ar": "بيض مع سجق",
+                        "de": "Eier mit Wurst"
+                    },
+                    "description": {
+                        "tr": "Sucuk ve yumurta ile hazırlanan kahvaltılık.",
+                        "en": "Breakfast prepared with sausage and eggs.",
+                        "ar": "إفطار محضر بالسجق والبيض.",
+                        "de": "Frühstück mit Wurst und Eiern."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "kasarli-omlet",
+                    "name": {
+                        "tr": "Kaşarlı Omlet",
+                        "en": "Cheese Omelet",
+                        "ar": "أومليت بالجبن",
+                        "de": "Käse-Omelett"
+                    },
+                    "description": {
+                        "tr": "Kaşar peynirli omlet.",
+                        "en": "Omelet with kashar cheese.",
+                        "ar": "أومليت مع جبنة القشقوان.",
+                        "de": "Omelett mit Kaschar-Käse."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "sade-omlet",
+                    "name": {
+                        "tr": "Sade Omlet",
+                        "en": "Plain Omelet",
+                        "ar": "أومليت سادة",
+                        "de": "Einfaches Omelett"
+                    },
+                    "description": {
+                        "tr": "Klasik sade omlet.",
+                        "en": "Classic plain omelet.",
+                        "ar": "أومليت سادة كلاسيكي.",
+                        "de": "Klassisches einfaches Omelett."
+                    },
+                    "price": 100,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "karisik-omlet",
+                    "name": {
+                        "tr": "Karışık Omlet",
+                        "en": "Mix Omelet",
+                        "ar": "أومليت مشكل",
+                        "de": "Gemischtes Omelett"
+                    },
+                    "description": {
+                        "tr": "Sebze ve peynirle hazırlanan omlet.",
+                        "en": "Omelet prepared with vegetables and cheese.",
+                        "ar": "أومليت محضر بالخضروات والجبن.",
+                        "de": "Omelett mit Gemüse und Käse."
+                    },
+                    "price": 140,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "sutu-yumurta",
+                    "name": {
+                        "tr": "Sütü Yumurta",
+                        "en": "Scrambled Eggs",
+                        "ar": "بيض مخفوق",
+                        "de": "Rühreier"
+                    },
+                    "description": {
+                        "tr": "Tereyağında çırpılmış yumurta.",
+                        "en": "Scrambled eggs in butter.",
+                        "ar": "بيض مخفوق بالزبدة.",
+                        "de": "Rühreier in Butter."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "menemen",
+                    "name": {
+                        "tr": "Menemen",
+                        "en": "Menemen",
+                        "ar": "منيمن",
+                        "de": "Menemen"
+                    },
+                    "description": {
+                        "tr": "Domates, biber ve yumurta ile hazırlanan geleneksel kahvaltılık.",
+                        "en": "Traditional breakfast prepared with tomatoes, peppers and eggs.",
+                        "ar": "إفطار تقليدي محضر بالطماطم والفلفل والبيض.",
+                        "de": "Traditionelles Frühstück mit Tomaten, Paprika und Eiern."
+                    },
+                    "price": 130,
+                    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "balli-yogurt",
+                    "name": {
+                        "tr": "Ballı Yoğurt",
+                        "en": "Yoghurt with Honey",
+                        "ar": "لبن بالعسل",
+                        "de": "Joghurt mit Honig"
+                    },
+                    "description": {
+                        "tr": "Süzme yoğurt ve bal ile.",
+                        "en": "Strained yoghurt with honey.",
+                        "ar": "لبن مصفى مع العسل.",
+                        "de": "Abgetropfter Joghurt mit Honig."
+                    },
+                    "price": 100,
+                    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "meyveli-yogurt",
+                    "name": {
+                        "tr": "Meyveli Yoğurt",
+                        "en": "Yoghurt with Fruit",
+                        "ar": "لبن بالفواكه",
+                        "de": "Joghurt mit Früchten"
+                    },
+                    "description": {
+                        "tr": "Taze meyveler ve yoğurt ile.",
+                        "en": "With fresh fruits and yoghurt.",
+                        "ar": "مع الفواكه الطازجة واللبن.",
+                        "de": "Mit frischen Früchten und Joghurt."
+                    },
+                    "price": 120,
+                    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=2000&auto=format&fit=crop"
+                }
+            ]
+        },
+        {
+            "id": "kebabs",
+            "name": {
+                "tr": "Kebaplar",
+                "en": "Kebab's",
+                "ar": "الكباب",
+                "de": "Kebabs"
             },
             "items": [
                 {
@@ -44,21 +553,157 @@
                     "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
-                    "id": "sac-kavurma",
+                    "id": "kuzu-sis",
                     "name": {
-                        "tr": "Saç Kavurma",
-                        "en": "Sac Kavurma",
-                        "ar": "ساج كافورما",
-                        "de": "Sac Kavurma"
+                        "tr": "Kuzu Şiş",
+                        "en": "Lamb Shish",
+                        "ar": "شيش لحم الضأن",
+                        "de": "Lammspieß"
                     },
                     "description": {
-                        "tr": "Demir tavada biber ve domatesle sotelenmiş kuşbaşı et.",
-                        "en": "Diced meat sautéed with peppers and tomatoes in an iron pan.",
-                        "ar": "لحم مقطع سوتيه مع الفلفل والطماطم في مقلاة حديدية.",
-                        "de": "Geschnetzeltes Fleisch, sautiert mit Paprika und Tomaten in einer Eisenpfanne."
+                        "tr": "Közde pişmiş kuzu şiş kebap.",
+                        "en": "Charcoal grilled lamb shish kebab.",
+                        "ar": "شيش كباب لحم ضأن مشوي على الفحم.",
+                        "de": "Auf Holzkohle gegrillter Lammspieß."
+                    },
+                    "price": 520,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "ali-nazik",
+                    "name": {
+                        "tr": "Ali Nazik",
+                        "en": "Ali Nazik",
+                        "ar": "علي نازك",
+                        "de": "Ali Nazik"
+                    },
+                    "description": {
+                        "tr": "Patlıcan ezmesi üzerine kuzu kavurma.",
+                        "en": "Lamb sauté on eggplant puree.",
+                        "ar": "لحم ضأن سوتيه على هريس الباذنجان.",
+                        "de": "Lamm-Sauté auf Auberginenpüree."
                     },
                     "price": 520,
                     "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "patlican-kebap",
+                    "name": {
+                        "tr": "Patlıcan Kebap",
+                        "en": "Eggplant Kebab",
+                        "ar": "كباب الباذنجان",
+                        "de": "Auberginen-Kebab"
+                    },
+                    "description": {
+                        "tr": "Patlıcan ve kıyma ile hazırlanan kebap.",
+                        "en": "Kebab prepared with eggplant and minced meat.",
+                        "ar": "كباب محضر بالباذنجان واللحم المفروم.",
+                        "de": "Kebab mit Auberginen und Hackfleisch."
+                    },
+                    "price": 430,
+                    "image": "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "iskender-kebap",
+                    "name": {
+                        "tr": "İskender Kebap",
+                        "en": "Iskender Kebab",
+                        "ar": "كباب إسكندر",
+                        "de": "Iskender Kebab"
+                    },
+                    "description": {
+                        "tr": "Yoğurt ve tereyağlı domates sosu ile döner kebap.",
+                        "en": "Doner kebab with yoghurt and buttered tomato sauce.",
+                        "ar": "كباب دونر مع اللبن وصلصة الطماطم بالزبدة.",
+                        "de": "Döner Kebab mit Joghurt und Butter-Tomatensauce."
+                    },
+                    "price": 520,
+                    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "kuzu-pirzola",
+                    "name": {
+                        "tr": "Kuzu Pirzola",
+                        "en": "Lamb Chops",
+                        "ar": "ضلوع الضأن",
+                        "de": "Lammkoteletts"
+                    },
+                    "description": {
+                        "tr": "Közde pişmiş kuzu pirzola.",
+                        "en": "Charcoal grilled lamb chops.",
+                        "ar": "ضلوع ضأن مشوية على الفحم.",
+                        "de": "Auf Holzkohle gegrillte Lammkoteletts."
+                    },
+                    "price": 560,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "kofte-izgara",
+                    "name": {
+                        "tr": "Köfte Izgara",
+                        "en": "Grilled Meatballs",
+                        "ar": "كفتة مشوية",
+                        "de": "Gegrillte Fleischbällchen"
+                    },
+                    "description": {
+                        "tr": "Közde pişmiş köfte.",
+                        "en": "Charcoal grilled meatballs.",
+                        "ar": "كفتة مشوية على الفحم.",
+                        "de": "Auf Holzkohle gegrillte Fleischbällchen."
+                    },
+                    "price": 380,
+                    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "tavuk-sis",
+                    "name": {
+                        "tr": "Tavuk Şiş",
+                        "en": "Chicken Shish",
+                        "ar": "شيش دجاج",
+                        "de": "Hähnchenspieß"
+                    },
+                    "description": {
+                        "tr": "Marine edilmiş tavuk göğsü şiş.",
+                        "en": "Marinated chicken breast shish.",
+                        "ar": "شيش صدر دجاج متبل.",
+                        "de": "Marinierter Hähnchenbrustspieß."
+                    },
+                    "price": 380,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "tavuk-kanat",
+                    "name": {
+                        "tr": "Tavuk Kanat",
+                        "en": "Chicken Wings",
+                        "ar": "أجنحة الدجاج",
+                        "de": "Hähnchenflügel"
+                    },
+                    "description": {
+                        "tr": "Baharatlı tavuk kanatları.",
+                        "en": "Spiced chicken wings.",
+                        "ar": "أجنحة دجاج متبلة.",
+                        "de": "Gewürzte Hähnchenflügel."
+                    },
+                    "price": 370,
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
+                },
+                {
+                    "id": "karisik-izgara",
+                    "name": {
+                        "tr": "Karışık Izgara",
+                        "en": "Mix Grill",
+                        "ar": "مشاوي مشكلة",
+                        "de": "Gemischter Grill"
+                    },
+                    "description": {
+                        "tr": "Adana, urfa, tavuk şiş ve köfte karışımı.",
+                        "en": "Mix of adana, urfa, chicken shish and meatballs.",
+                        "ar": "مزيج من أضنة وأورفا وشيش الدجاج والكفتة.",
+                        "de": "Mischung aus Adana, Urfa, Hähnchenspieß und Fleischbällchen."
+                    },
+                    "price": 650,
+                    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
         },

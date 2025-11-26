@@ -1,8 +1,12 @@
 {
+    "TopBar": {
+        "viewText": "Blick auf die historische Halbinsel",
+        "rating": "4.9 Google-Bewertung"
+    },
     "Navigation": {
         "home": "Startseite",
-        "menu": "Speisekarte",
-        "about": "Über Uns",
+        "menu": "Menü",
+        "about": "Über uns",
         "blog": "Blog",
         "gallery": "Galerie",
         "contact": "Kontakt"
@@ -40,7 +44,10 @@
         }
     },
     "Footer": {
-        "rights": "Alle Rechte vorbehalten."
+        "rights": "Alle Rechte vorbehalten.",
+        "quickLinks": "Schnelllinks",
+        "contact": "Kontakt",
+        "hours": "Öffnungszeiten"
     },
     "FAQ": {
         "title": "Häufig gestellte Fragen",

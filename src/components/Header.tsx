@@ -52,7 +52,7 @@ export default function Header({ locale }: { locale: string }) {
                         <Link
                             key={link.name}
                             href={link.href}
-                            className={`transition-colors font-medium ${scrolled ? 'text-zinc-800 hover:text-amber-600' : 'text-white hover:text-amber-500'}`}
+                            className={`transition-colors font-medium ${scrolled ? 'text-zinc-800 hover:text-amber-600' : 'text-zinc-800 hover:text-amber-600'}`}
                         >
                             {link.name}
                         </Link>
@@ -63,7 +63,7 @@ export default function Header({ locale }: { locale: string }) {
                 <div className="hidden md:block z-50">
                     <div className="relative group">
                         <button
-                            className={`flex items-center gap-1 py-2 ${scrolled ? 'text-zinc-800 hover:text-amber-600' : 'text-white hover:text-amber-500'}`}
+                            className={`flex items-center gap-1 py-2 ${scrolled ? 'text-zinc-800 hover:text-amber-600' : 'text-zinc-800 hover:text-amber-600'}`}
                         >
                             <Globe size={20} />
                             <span className="uppercase">{locale}</span>
