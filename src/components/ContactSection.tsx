@@ -7,37 +7,37 @@ export default function ContactSection() {
     const t = useTranslations('Contact');
 
     return (
-        <section id="contact" className="py-20 bg-zinc-900 text-white">
+        <section id="contact" className="py-20 bg-zinc-50">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold mb-4 text-amber-500">{t('title')}</h2>
+                    <h2 className="text-4xl font-bold mb-4 text-zinc-900">{t('title')}</h2>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
                     {/* Contact Form */}
-                    <div className="bg-zinc-950 p-8 rounded-2xl border border-zinc-800">
+                    <div className="bg-white p-8 rounded-2xl border border-zinc-200 shadow-sm">
                         <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                             <div>
-                                <label className="block text-sm font-medium text-zinc-400 mb-2">{t('form.name')}</label>
+                                <label className="block text-sm font-medium text-zinc-700 mb-2">{t('form.name')}</label>
                                 <input
                                     type="text"
-                                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg focus:outline-none focus:border-amber-500 text-white transition-colors"
+                                    className="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded-lg focus:outline-none focus:border-amber-600 text-zinc-900 transition-colors"
                                     placeholder={t('form.name')}
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-zinc-400 mb-2">{t('form.email')}</label>
+                                <label className="block text-sm font-medium text-zinc-700 mb-2">{t('form.email')}</label>
                                 <input
                                     type="email"
-                                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg focus:outline-none focus:border-amber-500 text-white transition-colors"
+                                    className="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded-lg focus:outline-none focus:border-amber-600 text-zinc-900 transition-colors"
                                     placeholder={t('form.email')}
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-zinc-400 mb-2">{t('form.message')}</label>
+                                <label className="block text-sm font-medium text-zinc-700 mb-2">{t('form.message')}</label>
                                 <textarea
                                     rows={4}
-                                    className="w-full px-4 py-3 bg-zinc-900 border border-zinc-800 rounded-lg focus:outline-none focus:border-amber-500 text-white transition-colors"
+                                    className="w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded-lg focus:outline-none focus:border-amber-600 text-zinc-900 transition-colors"
                                     placeholder={t('form.message')}
                                 ></textarea>
                             </div>
@@ -51,7 +51,7 @@ export default function ContactSection() {
                     </div>
 
                     {/* Map */}
-                    <div className="h-[500px] rounded-2xl overflow-hidden border border-zinc-800">
+                    <div className="h-[500px] rounded-2xl overflow-hidden border border-zinc-200 shadow-sm">
                         <iframe
                             src={siteInfo.mapUrl}
                             width="100%"

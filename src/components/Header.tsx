@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Header({ locale }: { locale: string }) {
     const t = useTranslations('Navigation');
-    const [isOpen, setIsOpen] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const pathname = usePathname();
     const router = useRouter();
@@ -38,8 +38,7 @@ export default function Header({ locale }: { locale: string }) {
 
     return (
         <header
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md py-4' : 'bg-transparent py-6'
-                }`}
+            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-md py-3' : 'bg-white/95 backdrop-blur-sm shadow-sm py-5'}`}
         >
             <div className="container mx-auto px-4 flex justify-between items-center relative">
                 {/* Logo - Left */}
@@ -53,7 +52,7 @@ export default function Header({ locale }: { locale: string }) {
                         <Link
                             key={link.name}
                             href={link.href}
-                            className="text-white hover:text-amber-500 transition-colors font-medium"
+                            className={`transition-colors font-medium ${scrolled ? 'text-zinc-800 hover:text-amber-600' : 'text-white hover:text-amber-500'}`}
                         >
                             {link.name}
                         </Link>
@@ -64,18 +63,18 @@ export default function Header({ locale }: { locale: string }) {
                 <div className="hidden md:block z-50">
                     <div className="relative group">
                         <button
-                            className="flex items-center gap-1 text-white hover:text-amber-500 py-2"
+                            className={`flex items-center gap-1 py-2 ${scrolled ? 'text-zinc-800 hover:text-amber-600' : 'text-white hover:text-amber-500'}`}
                         >
                             <Globe size={20} />
                             <span className="uppercase">{locale}</span>
                         </button>
                         <div className="absolute right-0 top-full pt-2 w-24 hidden group-hover:block hover:block">
-                            <div className="bg-zinc-900 rounded-md shadow-lg overflow-hidden border border-zinc-800">
+                            <div className="bg-white rounded-md shadow-lg overflow-hidden border border-zinc-200">
                                 {['tr', 'en', 'ar', 'de'].map((l) => (
                                     <button
                                         key={l}
                                         onClick={() => switchLocale(l)}
-                                        className={`block w-full text-left px-4 py-2 text-sm hover:bg-zinc-800 ${locale === l ? 'text-amber-500' : 'text-white'
+                                        className={`block w-full text-left px-4 py-2 text-sm hover:bg-zinc-100 ${locale === l ? 'text-amber-600 font-bold' : 'text-zinc-800'
                                             }`}
                                     >
                                         {l.toUpperCase()}
@@ -88,52 +87,45 @@ export default function Header({ locale }: { locale: string }) {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-white z-50"
-                    onClick={() => setIsOpen(!isOpen)}
+                    className={`md:hidden z-50 ${scrolled ? 'text-zinc-800' : 'text-white'}`}
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 >
-                    {isOpen ? <X size={24} /> : <Menu size={24} />}
+                    {isMobileMenuOpen ? <X size={24} className="text-zinc-800" /> : <Menu size={24} />}
                 </button>
             </div>
 
-            {/* Mobile Nav */}
-            <AnimatePresence>
-                {isOpen && (
-                    <motion.div
-                        initial={{ opacity: 0, y: -20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -20 }}
-                        className="md:hidden absolute top-full left-0 right-0 bg-zinc-900 border-t border-zinc-800"
-                    >
-                        <nav className="flex flex-col p-4">
-                            {navLinks.map((link) => (
-                                <Link
-                                    key={link.name}
-                                    href={link.href}
-                                    onClick={() => setIsOpen(false)}
-                                    className="py-3 text-white hover:text-amber-500 border-b border-zinc-800 last:border-0"
+            {/* Mobile Menu */}
+            {isMobileMenuOpen && (
+                <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-zinc-200 p-4 shadow-lg">
+                    <div className="flex flex-col space-y-4">
+                        {navLinks.map((link) => (
+                            <Link
+                                key={link.href}
+                                href={link.href}
+                                className="text-zinc-800 hover:text-amber-600 transition-colors font-medium"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                                {link.name}
+                            </Link>
+                        ))}
+                        <div className="flex gap-2 pt-4 border-t border-zinc-200">
+                            {['tr', 'en', 'ar', 'de'].map((l) => (
+                                <button
+                                    key={l}
+                                    onClick={() => {
+                                        switchLocale(l);
+                                        setIsMobileMenuOpen(false);
+                                    }}
+                                    className={`uppercase ${locale === l ? 'text-amber-600 font-bold' : 'text-zinc-600'
+                                        }`}
                                 >
-                                    {link.name}
-                                </Link>
+                                    {l}
+                                </button>
                             ))}
-                            <div className="flex gap-4 py-4 justify-center">
-                                {['tr', 'en', 'ar', 'de'].map((l) => (
-                                    <button
-                                        key={l}
-                                        onClick={() => {
-                                            switchLocale(l);
-                                            setIsOpen(false);
-                                        }}
-                                        className={`uppercase ${locale === l ? 'text-amber-500 font-bold' : 'text-zinc-400'
-                                            }`}
-                                    >
-                                        {l}
-                                    </button>
-                                ))}
-                            </div>
-                        </nav>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+                        </div>
+                    </div>
+                </div>
+            )}
         </header>
     );
 }

@@ -49,6 +49,8 @@
         "q2": "Menüde vejetaryen ya da glutensiz seçenekler var mı?",
         "a2": "Evet, menümüzde hem vejetaryen hem de glutensiz seçenekler bulunmaktadır. Siparişinizde özel bir hassasiyet varsa ekibimize mutlaka belirtin.",
         "q3": "Manzara hangi masalardan daha iyi görünüyor?",
-        "a3": "Teras katımız deniz ve tarihi yarımada manzarasıyla öne çıkıyor. Manzara öncelikli bir masa talebiniz varsa rezervasyon esnasında belirtmeniz yeterli."
+        "a3": "Teras katımız deniz ve tarihi yarımada manzarasıyla öne çıkar. Manzaralı bir masa tercih ediyorsanız, rezervasyon yaparken belirtmeniz yeterli.",
+        "q4": "Paket servis veya gel-al hizmetiniz var mı?",
+        "a4": "Evet, hem paket servis hem de gel-al hizmetimiz bulunmaktadır. Web sitemizden veya bizi arayarak sipariş verebilirsiniz."
     }
 }

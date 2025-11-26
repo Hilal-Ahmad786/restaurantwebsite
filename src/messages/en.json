@@ -49,6 +49,8 @@
         "q2": "Are there vegetarian or gluten-free options on the menu?",
         "a2": "Yes, our menu includes both vegetarian and gluten-free options. Please inform our team if you have any specific dietary requirements when ordering.",
         "q3": "Which tables have the best view?",
-        "a3": "Our terrace floor stands out with its view of the sea and the historical peninsula. If you prefer a table with a view, simply mention it when making your reservation."
+        "a3": "Our terrace floor stands out with its view of the sea and the historical peninsula. If you prefer a table with a view, simply mention it when making your reservation.",
+        "q4": "Do you offer delivery or takeaway?",
+        "a4": "Yes, we offer both delivery and takeaway services. You can order through our website or by calling us directly."
     }
 }

@@ -24,7 +24,7 @@
                         "de": "Scharfer Hackfleischspieß vom Holzkohlegrill, serviert mit Bulgur und Röstgemüse."
                     },
                     "price": 450,
-                    "image": "/images/adana.jpg"
+                    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "urfa-kebab",
@@ -41,7 +41,7 @@
                         "de": "Ein klassischer Kebab-Geschmack mit ausgewogenen Gewürzen und weniger Schärfe."
                     },
                     "price": 450,
-                    "image": "/images/urfa.jpg"
+                    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "sac-kavurma",
@@ -58,7 +58,7 @@
                         "de": "Geschnetzeltes Fleisch, sautiert mit Paprika und Tomaten in einer Eisenpfanne."
                     },
                     "price": 520,
-                    "image": "/images/sac-kavurma.jpg"
+                    "image": "https://images.unsplash.com/photo-1574484284002-952d92456975?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
         },
@@ -86,7 +86,7 @@
                         "de": "Gegrilltes Lachsfilet, serviert mit saisonalem Gemüse."
                     },
                     "price": 580,
-                    "image": "/images/salmon.jpg"
+                    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "karides-guvec",
@@ -103,7 +103,7 @@
                         "de": "Heiße Garnelen, überbacken mit Tomaten, Knoblauch und Kaschar-Käse."
                     },
                     "price": 480,
-                    "image": "/images/shrimp.jpg"
+                    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "izgara-levrek",
@@ -120,7 +120,7 @@
                         "de": "Leichtes weißes Fleisch, verfeinert mit frischer Zitrone und Gewürzen."
                     },
                     "price": 600,
-                    "image": "/images/seabass.jpg"
+                    "image": "https://images.unsplash.com/photo-1580959375944-0b6e7f0d0a6f?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
         },
@@ -148,7 +148,7 @@
                         "de": "Klassische Pide mit Fleisch und Paprika, im Steinofen gebacken."
                     },
                     "price": 320,
-                    "image": "/images/pide-meat.jpg"
+                    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "kasarli-pide",
@@ -165,7 +165,7 @@
                         "de": "Ofengenuss voller geschmolzenem Kaschar-Käse mit knusprigen Rändern."
                     },
                     "price": 280,
-                    "image": "/images/pide-cheese.jpg"
+                    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "lahmacun",
@@ -182,7 +182,7 @@
                         "de": "Würziges Hackfleisch und frisches Grün auf dünnem Teig."
                     },
                     "price": 150,
-                    "image": "/images/lahmacun.jpg"
+                    "image": "https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
         },
@@ -210,7 +210,7 @@
                         "de": "Knuspriges Filoteig-Dessert mit Pistazien und Kajmak."
                     },
                     "price": 250,
-                    "image": "/images/katmer.jpg"
+                    "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "kunefe",
@@ -227,7 +227,7 @@
                         "de": "Warmes Dessert mit schmelzendem Käse zwischen sirupgetränktem Fadenteig."
                     },
                     "price": 220,
-                    "image": "/images/kunefe.jpg"
+                    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=2000&auto=format&fit=crop"
                 },
                 {
                     "id": "baklava",
@@ -244,7 +244,7 @@
                         "de": "Ein türkischer Klassiker aus Schichten von Filoteig, Walnüssen und Sirup."
                     },
                     "price": 200,
-                    "image": "/images/baklava.jpg"
+                    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
         }

@@ -1,48 +1,39 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { ChevronDown } from 'lucide-react';
 
 export default function FAQSection() {
     const t = useTranslations('FAQ');
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     const faqs = [
-        { id: 'reservation', question: t('q1'), answer: t('a1') },
-        { id: 'dietary', question: t('q2'), answer: t('a2') },
-        { id: 'view', question: t('q3'), answer: t('a3') },
+        { q: t('q1'), a: t('a1') },
+        { q: t('q2'), a: t('a2') },
+        { q: t('q3'), a: t('a3') },
+        { q: t('q4'), a: t('a4') },
     ];
 
     return (
-        <section className="py-20 bg-zinc-950 text-white">
+        <section className="py-20 bg-white">
             <div className="container mx-auto px-4 max-w-3xl">
-                <h2 className="text-4xl font-bold mb-12 text-center text-amber-500">{t('title')}</h2>
-
+                <h2 className="text-4xl font-bold text-center mb-12 text-zinc-900">{t('title')}</h2>
                 <div className="space-y-4">
                     {faqs.map((faq, index) => (
-                        <div key={faq.id} className="border border-zinc-800 rounded-lg overflow-hidden bg-zinc-900/50">
+                        <div key={index} className="border border-zinc-200 rounded-lg overflow-hidden bg-zinc-50">
                             <button
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                                className="w-full px-6 py-4 flex justify-between items-center text-left hover:bg-zinc-800 transition-colors"
+                                className="w-full flex justify-between items-center p-6 text-left hover:bg-zinc-100 transition-colors"
                             >
-                                <span className="font-semibold text-lg">{faq.question}</span>
-                                {openIndex === index ? (
-                                    <ChevronUp className="text-amber-500" />
-                                ) : (
-                                    <ChevronDown className="text-zinc-400" />
-                                )}
+                                <span className="font-semibold text-zinc-900">{faq.q}</span>
+                                <ChevronDown className={`transform transition-transform ${openIndex === index ? 'rotate-180' : ''} text-amber-600`} />
                             </button>
-                            <motion.div
-                                initial={false}
-                                animate={{ height: openIndex === index ? 'auto' : 0 }}
-                                className="overflow-hidden"
-                            >
-                                <div className="px-6 pb-4 text-zinc-400 leading-relaxed">
-                                    {faq.answer}
+                            {openIndex === index && (
+                                <div className="px-6 pb-6 text-zinc-600">
+                                    {faq.a}
                                 </div>
-                            </motion.div>
+                            )}
                         </div>
                     ))}
                 </div>
