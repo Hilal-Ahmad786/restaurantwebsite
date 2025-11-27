@@ -44,7 +44,7 @@ export default async function LocaleLayout({
                     <GoogleAnalytics />
                     <TopBar />
                     <Header locale={locale} />
-                    <main className="min-h-screen pt-20">
+                    <main className="min-h-screen pt-13">
                         {children}
                     </main>
                     <Footer locale={locale} />
