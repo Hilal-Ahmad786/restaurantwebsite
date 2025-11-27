@@ -35,7 +35,7 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale} className="scroll-smooth">
-            <body className="bg-white text-zinc-900 antialiased" suppressHydrationWarning>
+            <body className="bg-white text-zinc-900 antialiased pb-14 md:pb-0" suppressHydrationWarning>
                 <NextIntlClientProvider messages={messages}>
                     <GoogleAnalytics />
                     <TopBar />

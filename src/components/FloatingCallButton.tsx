@@ -13,7 +13,7 @@ export default function FloatingCallButton() {
             transition={{ delay: 1, type: 'spring' }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            className="bg-amber-600 text-white w-16 h-16 rounded-full shadow-lg hover:bg-amber-700 transition-colors flex items-center justify-center group"
+            className="bg-amber-600 text-white w-1/2 h-14 rounded-none shadow-none md:w-16 md:h-16 md:rounded-full md:shadow-lg hover:bg-amber-700 transition-colors flex items-center justify-center group"
             aria-label="Call Us"
         >
             <div className="absolute inset-0 rounded-full bg-amber-600 animate-ping opacity-20 group-hover:opacity-40" />
