@@ -1,7 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-
 import { ReactNode } from 'react';
 import '../globals.css';
 import TopBar from '@/components/TopBar';
@@ -9,7 +8,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { Metadata } from 'next';
-
 export const metadata: Metadata = {
     title: 'My Terrace Cafe Restaurant',
     description: 'Best restaurant in Sultanahmet with a view.',
@@ -17,9 +15,7 @@ export const metadata: Metadata = {
         icon: '/logo.webp',
     },
 };
-
-import FloatingCallButton from '@/components/FloatingCallButton';
-
+import FloatingButtons from '@/components/FloatingButtons';
 export default async function LocaleLayout({
     children,
     params
@@ -48,7 +44,7 @@ export default async function LocaleLayout({
                         {children}
                     </main>
                     <Footer locale={locale} />
-                    <FloatingCallButton />
+                    <FloatingButtons />
                 </NextIntlClientProvider>
             </body>
         </html>

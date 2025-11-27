@@ -26,8 +26,8 @@ export default function MenuSection({ locale }: { locale: string }) {
                             key={category.id}
                             onClick={() => setActiveCategory(category.id)}
                             className={`px-6 py-2 rounded-full transition-all duration-300 ${activeCategory === category.id
-                                    ? 'bg-amber-600 text-white shadow-lg scale-105'
-                                    : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
+                                ? 'bg-amber-600 text-white shadow-lg scale-105'
+                                : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
                                 }`}
                         >
                             {category.name[locale as keyof typeof category.name]}
@@ -38,15 +38,10 @@ export default function MenuSection({ locale }: { locale: string }) {
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {activeItems.map((item) => (
                         <div key={item.id} className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 group border border-zinc-100">
-                            <div className="relative h-48 overflow-hidden">
-                                <img
-                                    src={item.image}
-                                    alt={item.name[locale as keyof typeof item.name]}
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                                />
-                            </div>
-                            <div className="p-4">
-                                <h3 className="text-base font-bold text-zinc-900 text-center">{item.name[locale as keyof typeof item.name]}</h3>
+                            <div className="p-6 text-center">
+                                <h3 className="text-lg font-bold text-zinc-900 mb-2">{item.name[locale as keyof typeof item.name]}</h3>
+                                <p className="text-zinc-600 text-sm mb-3 line-clamp-2">{item.description[locale as keyof typeof item.description]}</p>
+
                             </div>
                         </div>
                     ))}

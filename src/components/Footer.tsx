@@ -56,12 +56,7 @@ export default function Footer({ locale }: { locale: string }) {
                                     {siteInfo.phone}
                                 </a>
                             </div>
-                            <div className="flex items-center gap-2">
-                                <Mail size={20} className="text-amber-600" />
-                                <a href={`mailto:${siteInfo.email}`} className="hover:text-amber-600 transition-colors">
-                                    {siteInfo.email}
-                                </a>
-                            </div>
+
                         </div>
                     </div>
 
