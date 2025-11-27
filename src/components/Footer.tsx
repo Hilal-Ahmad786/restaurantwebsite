@@ -84,7 +84,7 @@ export default function Footer({ locale }: { locale: string }) {
                             rel="noopener noreferrer"
                             className="flex items-center group"
                         >
-                            <span className="text-zinc-500 mr-2 group-hover:text-amber-600 transition-colors">Developed by</span>
+                            <span className="text-zinc-500 mr-2 group-hover:text-amber-600 transition-colors">{t('developedBy')}</span>
                             <div className="flex items-center text-amber-600 group-hover:text-amber-500 transition-colors">
                                 {/* Custom Crescent Icon */}
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 -rotate-12">
