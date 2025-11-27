@@ -1,27 +1,30 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Utensils, Sunset, HeartHandshake } from 'lucide-react';
 
 export default function FeaturesSection() {
+    const t = useTranslations('Features');
+
     const features = [
         {
             id: 1,
             icon: <Utensils size={48} className="text-amber-600 mb-4" />,
-            title: "Geleneksel Türk Mutfağı",
-            description: "Ustalıkla hazırlanan kebaplar, taze balıklar ve serpme kahvaltı ile hem yerel hem evrensel bir sofra."
+            title: t('f1_title'),
+            description: t('f1_desc')
         },
         {
             id: 2,
             icon: <Sunset size={48} className="text-amber-600 mb-4" />,
-            title: "Deniz Manzaralı Teras",
-            description: "Sultanahmet'in merkezinde ama gürültüsünden uzakta. Deniz manzaralı terasımızda İstanbul sadece gözükmez, hissedilir."
+            title: t('f2_title'),
+            description: t('f2_desc')
         },
         {
             id: 3,
             icon: <HeartHandshake size={48} className="text-amber-600 mb-4" />,
-            title: "Otantik Mekan, Gerçek Hizmet",
-            description: "Gösterişsiz ama özverili bir anlayışla; her masaya, her misafire, her ana saygı duyan bir servis kültürü."
+            title: t('f3_title'),
+            description: t('f3_desc')
         }
     ];
 
@@ -35,9 +38,9 @@ export default function FeaturesSection() {
                         viewport={{ once: true }}
                         className="inline-block"
                     >
-                        <span className="text-amber-600 text-xl mb-2 block">✽ Ne Sunuyoruz?</span>
+                        <span className="text-amber-600 text-xl mb-2 block">{t('subtitle')}</span>
                         <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 max-w-2xl mx-auto">
-                            Ziyaretçilerimizin tekrar tekrar gelmesini sağlayan üç temel deneyim.
+                            {t('title')}
                         </h2>
                     </motion.div>
                 </div>
@@ -69,3 +72,4 @@ export default function FeaturesSection() {
         </section>
     );
 }
+

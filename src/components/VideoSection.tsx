@@ -1,8 +1,11 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 
 export default function VideoSection() {
+    const t = useTranslations('Video');
+
     return (
         <section className="relative h-[60vh] md:h-[80vh] w-full overflow-hidden">
             {/* Video Background */}
@@ -29,7 +32,7 @@ export default function VideoSection() {
                     transition={{ duration: 0.8 }}
                     className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg"
                 >
-                    İstanbul’un Kalbinde,
+                    {t('title')}
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -38,9 +41,10 @@ export default function VideoSection() {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="text-2xl md:text-4xl text-white/90 font-light tracking-wide drop-shadow-md"
                 >
-                    Gelenekten İlham Alan Sofralar
+                    {t('subtitle')}
                 </motion.p>
             </div>
         </section>
     );
 }
+

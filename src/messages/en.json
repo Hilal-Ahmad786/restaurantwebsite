@@ -59,5 +59,23 @@
         "a3": "Our terrace floor stands out with its view of the sea and the historical peninsula. If you prefer a table with a view, simply mention it when making your reservation.",
         "q4": "Do you offer delivery or takeaway?",
         "a4": "Yes, we offer both delivery and takeaway services. You can order through our website or by calling us directly."
+    },
+    "Features": {
+        "subtitle": "✽ What We Offer?",
+        "title": "Three core experiences that keep our visitors coming back.",
+        "f1_title": "Traditional Turkish Cuisine",
+        "f1_desc": "A table that is both local and universal with expertly prepared kebabs, fresh fish, and mixed breakfast.",
+        "f2_title": "Terrace with Sea View",
+        "f2_desc": "In the center of Sultanahmet but away from its noise. On our terrace with a sea view, Istanbul is not just seen, it is felt.",
+        "f3_title": "Authentic Venue, Real Service",
+        "f3_desc": "With an unpretentious but devoted understanding; a service culture that respects every table, every guest, every moment."
+    },
+    "Video": {
+        "title": "In the Heart of Istanbul,",
+        "subtitle": "Tables Inspired by Tradition"
+    },
+    "Blog": {
+        "latestPosts": "Latest Posts",
+        "viewAll": "View All Posts"
     }
 }

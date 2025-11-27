@@ -1220,68 +1220,6 @@
                     "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=2000&auto=format&fit=crop"
                 }
             ]
-        },
-        {
-            "id": "desserts",
-            "name": {
-                "tr": "Tatlılar",
-                "en": "Desserts",
-                "ar": "الحلويات",
-                "de": "Desserts"
-            },
-            "items": [
-                {
-                    "id": "katmer",
-                    "name": {
-                        "tr": "Katmer",
-                        "en": "Katmer",
-                        "ar": "كاتمر",
-                        "de": "Katmer"
-                    },
-                    "description": {
-                        "tr": "Antep fıstığı ve kaymakla hazırlanan çıtır yufka tatlısı.",
-                        "en": "Crispy phyllo dessert prepared with pistachios and clotted cream.",
-                        "ar": "حلوى الرقائق المقرمشة المحضرة بالفستق والقشطة.",
-                        "de": "Knuspriges Filoteig-Dessert mit Pistazien und Kajmak."
-                    },
-                    "price": 250,
-                    "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=2000&auto=format&fit=crop"
-                },
-                {
-                    "id": "kunefe",
-                    "name": {
-                        "tr": "Künefe",
-                        "en": "Kunefe",
-                        "ar": "كنافة",
-                        "de": "Künefe"
-                    },
-                    "description": {
-                        "tr": "Şerbetli tel kadayıf arasında eriyen peynirle sıcak tatlı.",
-                        "en": "Hot dessert with melting cheese between syrupy shredded wheat.",
-                        "ar": "حلوى ساخنة مع جبن ذائب بين خيوط العجين المسقية بالقطر.",
-                        "de": "Warmes Dessert mit schmelzendem Käse zwischen sirupgetränktem Fadenteig."
-                    },
-                    "price": 220,
-                    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=2000&auto=format&fit=crop"
-                },
-                {
-                    "id": "baklava",
-                    "name": {
-                        "tr": "Baklava",
-                        "en": "Baklava",
-                        "ar": "بقلاوة",
-                        "de": "Baklava"
-                    },
-                    "description": {
-                        "tr": "Kat kat yufka, ceviz ve şerbetle hazırlanan Türk klasiği.",
-                        "en": "A Turkish classic made with layers of phyllo, walnuts, and syrup.",
-                        "ar": "كلاسيكية تركية محضرة من طبقات العجين والجوز والقطر.",
-                        "de": "Ein türkischer Klassiker aus Schichten von Filoteig, Walnüssen und Sirup."
-                    },
-                    "price": 200,
-                    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=2000&auto=format&fit=crop"
-                }
-            ]
         }
     ]
 }

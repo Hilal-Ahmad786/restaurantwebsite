@@ -59,5 +59,23 @@
         "a3": "Teras katımız deniz ve tarihi yarımada manzarasıyla öne çıkar. Manzaralı bir masa tercih ediyorsanız, rezervasyon yaparken belirtmeniz yeterli.",
         "q4": "Paket servis veya gel-al hizmetiniz var mı?",
         "a4": "Evet, hem paket servis hem de gel-al hizmetimiz bulunmaktadır. Web sitemizden veya bizi arayarak sipariş verebilirsiniz."
+    },
+    "Features": {
+        "subtitle": "✽ Ne Sunuyoruz?",
+        "title": "Ziyaretçilerimizin tekrar tekrar gelmesini sağlayan üç temel deneyim.",
+        "f1_title": "Geleneksel Türk Mutfağı",
+        "f1_desc": "Ustalıkla hazırlanan kebaplar, taze balıklar ve serpme kahvaltı ile hem yerel hem evrensel bir sofra.",
+        "f2_title": "Deniz Manzaralı Teras",
+        "f2_desc": "Sultanahmet'in merkezinde ama gürültüsünden uzakta. Deniz manzaralı terasımızda İstanbul sadece gözükmez, hissedilir.",
+        "f3_title": "Otantik Mekan, Gerçek Hizmet",
+        "f3_desc": "Gösterişsiz ama özverili bir anlayışla; her masaya, her misafire, her ana saygı duyan bir servis kültürü."
+    },
+    "Video": {
+        "title": "İstanbul’un Kalbinde,",
+        "subtitle": "Gelenekten İlham Alan Sofralar"
+    },
+    "Blog": {
+        "latestPosts": "Son Yazılar",
+        "viewAll": "Tüm Yazıları Gör"
     }
 }

@@ -59,5 +59,23 @@
         "a3": "Unsere Terrassenetage zeichnet sich durch den Blick auf das Meer und die historische Halbinsel aus. Wenn Sie einen Tisch mit Aussicht bevorzugen, geben Sie dies einfach bei Ihrer Reservierung an.",
         "q4": "Bieten Sie Lieferung oder Abholung an?",
         "a4": "Ja, wir bieten sowohl Liefer- als auch Abholservice an. Sie können über unsere Website oder telefonisch bestellen."
+    },
+    "Features": {
+        "subtitle": "✽ Was wir bieten?",
+        "title": "Drei Grunderlebnisse, die unsere Besucher immer wieder kommen lassen.",
+        "f1_title": "Traditionelle türkische Küche",
+        "f1_desc": "Ein Tisch, der sowohl lokal als auch universell ist, mit fachmännisch zubereiteten Kebabs, frischem Fisch und gemischtem Frühstück.",
+        "f2_title": "Terrasse mit Meerblick",
+        "f2_desc": "Mitten in Sultanahmet, aber fernab vom Lärm. Auf unserer Terrasse mit Meerblick wird Istanbul nicht nur gesehen, sondern gefühlt.",
+        "f3_title": "Authentischer Ort, Echter Service",
+        "f3_desc": "Mit einem unprätentiösen, aber hingebungsvollen Verständnis; eine Servicekultur, die jeden Tisch, jeden Gast, jeden Moment respektiert."
+    },
+    "Video": {
+        "title": "Im Herzen von Istanbul,",
+        "subtitle": "Von Tradition inspirierte Tische"
+    },
+    "Blog": {
+        "latestPosts": "Neueste Beiträge",
+        "viewAll": "Alle Beiträge anzeigen"
     }
 }
