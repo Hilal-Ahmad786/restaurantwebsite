@@ -64,7 +64,7 @@
                     "id": "humus",
                     "name": {
                         "tr": "Humus",
-                        "en": "Humus",
+                        "en": "Hummus",
                         "ar": "حمص",
                         "de": "Hummus"
                     },
@@ -132,7 +132,7 @@
                     "id": "hamsi-salamura",
                     "name": {
                         "tr": "Hamsi Salamura",
-                        "en": "Anchovys Marina",
+                        "en": "Marinated Anchovies",
                         "ar": "أنشوجة مخللة",
                         "de": "Eingelegte Sardellen"
                     },
@@ -166,7 +166,7 @@
                     "id": "karides-sogu",
                     "name": {
                         "tr": "Karides Soğuğu",
-                        "en": "Shrimps Rope",
+                        "en": "Chilled Shrimps",
                         "ar": "جمبري بارد",
                         "de": "Kalte Garnelen"
                     },
@@ -202,7 +202,7 @@
             "id": "salads",
             "name": {
                 "tr": "Salatalar",
-                "en": "Salad's",
+                "en": "Salads",
                 "ar": "السلطات",
                 "de": "Salate"
             },
@@ -211,7 +211,7 @@
                     "id": "coban-salata",
                     "name": {
                         "tr": "Çoban Salata",
-                        "en": "Shepherds Salad",
+                        "en": "Shepherd's Salad",
                         "ar": "سلطة الراعي",
                         "de": "Hirtensalat"
                     },
@@ -262,7 +262,7 @@
                     "id": "sef-salata",
                     "name": {
                         "tr": "Şef Salata",
-                        "en": "Chop Salad",
+                        "en": "Chef's Salad",
                         "ar": "سلطة الشيف",
                         "de": "Chef-Salat"
                     },
@@ -279,7 +279,7 @@
                     "id": "ton-balikli-salata",
                     "name": {
                         "tr": "Ton Balıklı Salata",
-                        "en": "Tuna Fish Salad",
+                        "en": "Tuna Salad",
                         "ar": "سلطة التونة",
                         "de": "Thunfischsalat"
                     },
@@ -307,7 +307,7 @@
                     "id": "serpme-kahvalti",
                     "name": {
                         "tr": "Serpme Kahvaltı",
-                        "en": "Serklis Styla Breakfast",
+                        "en": "Traditional Turkish Breakfast Spread",
                         "ar": "إفطار تركي تقليدي",
                         "de": "Traditionelles türkisches Frühstück"
                     },
@@ -341,7 +341,7 @@
                     "id": "sahanda-yumurta",
                     "name": {
                         "tr": "Sahanda Yumurta",
-                        "en": "Browse Eggs",
+                        "en": "Fried Eggs in Pan",
                         "ar": "بيض مقلي",
                         "de": "Spiegeleier"
                     },
@@ -426,7 +426,7 @@
                     "id": "karisik-omlet",
                     "name": {
                         "tr": "Karışık Omlet",
-                        "en": "Mix Omelet",
+                        "en": "Mixed Omelet",
                         "ar": "أومليت مشكل",
                         "de": "Gemischtes Omelett"
                     },
@@ -442,7 +442,7 @@
                 {
                     "id": "sutu-yumurta",
                     "name": {
-                        "tr": "Sütü Yumurta",
+                        "tr": "Sütlü Yumurta",
                         "en": "Scrambled Eggs",
                         "ar": "بيض مخفوق",
                         "de": "Rühreier"
@@ -513,7 +513,7 @@
             "id": "kebabs",
             "name": {
                 "tr": "Kebaplar",
-                "en": "Kebab's",
+                "en": "Kebabs",
                 "ar": "الكباب",
                 "de": "Kebabs"
             },
@@ -692,13 +692,13 @@
                     "id": "karisik-izgara",
                     "name": {
                         "tr": "Karışık Izgara",
-                        "en": "Mix Grill",
+                        "en": "Mixed Grill",
                         "ar": "مشاوي مشكلة",
                         "de": "Gemischter Grill"
                     },
                     "description": {
                         "tr": "Adana, urfa, tavuk şiş ve köfte karışımı.",
-                        "en": "Mix of adana, urfa, chicken shish and meatballs.",
+                        "en": "Mix of Adana, Urfa, chicken shish and meatballs.",
                         "ar": "مزيج من أضنة وأورفا وشيش الدجاج والكفتة.",
                         "de": "Mischung aus Adana, Urfa, Hähnchenspieß und Fleischbällchen."
                     },
@@ -713,7 +713,7 @@
                 "tr": "Deniz Ürünleri & Hafif Lezzetler",
                 "en": "Seafood & Light Flavors",
                 "ar": "المأكولات البحرية والنكهات الخفيفة",
-                "de": "Meeresfrüchte & Leichte Aromen"
+                "de": "Meeresfrüchte & leichte Gerichte"
             },
             "items": [
                 {
@@ -897,7 +897,7 @@
             "id": "steaks",
             "name": {
                 "tr": "Biftekler",
-                "en": "Steak's",
+                "en": "Steaks",
                 "ar": "شرائح اللحم",
                 "de": "Steaks"
             },
@@ -1008,9 +1008,9 @@
                     "id": "lamb-cage",
                     "name": {
                         "tr": "Kuzu Kafes",
-                        "en": "Lamb Cage",
+                        "en": "Rack of Lamb",
                         "ar": "قفص الضأن",
-                        "de": "Lammkäfig"
+                        "de": "Lammkarree"
                     },
                     "description": {
                         "tr": "Fırında pişmiş kuzu kaburga.",
@@ -1025,7 +1025,7 @@
                     "id": "leg-of-lamb",
                     "name": {
                         "tr": "Kuzu İncik",
-                        "en": "Leg of the Lamb",
+                        "en": "Lamb Shank",
                         "ar": "ساق الضأن",
                         "de": "Lammhaxe"
                     },
@@ -1061,7 +1061,7 @@
             "id": "hot-appetizers",
             "name": {
                 "tr": "Ara Sıcaklar",
-                "en": "Hot Appetizer's",
+                "en": "Hot Appetizers",
                 "ar": "المقبلات الساخنة",
                 "de": "Warme Vorspeisen"
             },
@@ -1138,7 +1138,7 @@
                     "id": "fried-calamary",
                     "name": {
                         "tr": "Kalamar Tava",
-                        "en": "Fried Calamary",
+                        "en": "Fried Calamari",
                         "ar": "حبار مقلي",
                         "de": "Gebratene Calamari"
                     },
@@ -1172,7 +1172,7 @@
                     "id": "shrimp-butter",
                     "name": {
                         "tr": "Tereyağında Karides",
-                        "en": "Shrimp Butter",
+                        "en": "Shrimps in Butter",
                         "ar": "جمبري بالزبدة",
                         "de": "Garnelen in Butter"
                     },
