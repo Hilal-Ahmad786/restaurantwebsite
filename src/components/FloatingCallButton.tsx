@@ -11,12 +11,11 @@ export default function FloatingCallButton() {
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 1, type: 'spring' }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             className="bg-amber-600 text-white w-1/2 h-14 rounded-none shadow-none md:w-16 md:h-16 md:rounded-full md:shadow-lg hover:bg-amber-700 transition-colors flex items-center justify-center group"
             aria-label="Call Us"
         >
-            <div className="absolute inset-0 rounded-full bg-amber-600 animate-ping opacity-20 group-hover:opacity-40" />
             <Phone size={24} className="relative z-10" />
         </motion.a>
     );
